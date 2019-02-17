@@ -19,7 +19,7 @@
 ## Cvičení: Změna existujícího commitu, rozdílné local+remote větve
 * naklonovat/forknout `roboprojekt` repo (https://github.com/PyLadiesCZ/roboprojekt)
 * Nová větev (`git co -b vetvicka` / `git br`) do vlastního remote (`git remote -v`)
-* přidáme nový soubor `stromecek.txt` -> commit
+* přidáme nový soubor `stromecek.txt` -> commit (na obsahu nezáleží)
 * `git push origin -u origin vetvicka` (`--set-upstream`)
 
 Větev `vetvicka` teď "trčí" o jeden commit nad `master` lokálně i na githubu (`origin/master`).
@@ -41,6 +41,12 @@ Existuje několik možnosti, co se s tím dá dělat (pozn.: Udělat si zálohu 
 
 ## cherry-pick, rebase
 
+## stash - dočasné odložení rozdělané práce
+Přesuneme se na `master` větev:
+* zeditovat `README.md`
+* `git co <nekam>`
+* `git stash push [-m my-message]`, příp. `--include-untracked` 
+* `git stash list`, `pop`, `drop`, `clear`
 
 ## Commit message good practises
 * Separate subject from body with a blank line
