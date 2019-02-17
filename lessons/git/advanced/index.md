@@ -77,3 +77,8 @@ Přesuneme se na `master` větev:
 * Use the imperative mood in the subject line
 * Wrap the body at 72 characters
 * Use the body to explain what and why vs. how
+
+# Malé drobky
+* `git grep 'Tile'` vs. `git grep 'Tile('`
+* `git blame backend.py`
+* `git add -p`
