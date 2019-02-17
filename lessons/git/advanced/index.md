@@ -2,9 +2,9 @@
 
 ## Konfigurace
 * `git config [--global] -e`
- 
+* používat `[Tab]`!
+* používat `[Arrow Up/Down]` pro historii
 * lokální, globální, jiná identita, GPG klíč, ...
-
 * aliasy
   ```
   [alias]
@@ -38,8 +38,31 @@ Existuje několik možnosti, co se s tím dá dělat (pozn.: Udělat si zálohu 
 1. teprve `git pull` zakomponuje změnu i do remote větve, ale už jako `merge` commit (udělá to samé, co `git merge origin/vetvicka`)
 1. `git push -f` (force) přepíše historii i na githubu
 
+## Cvičení: remote, fetch, reset, rebase
+**Cíl**: umět přidat remote a synchronizovat si od něj změny
+1. přidat si nový remote `https://github.com/mpavlase/roboprojekt.git` (`git@github.com:mpavlase/roboprojekt.git`) jako `martin`
+1. (ukázat log)
+1. ukázat `git remote show origin`
+1. `git fetch` (lokální větve ještě neexistují),
+1. přepnout se na `zmena-readme`
 
-## cherry-pick, rebase
+### `cherry-pick`, `reset`
+1. zkusit si cherry-pick z větve `zmena-readme` na `master`
+1. zkusit si to s jiným commitem
+
+Vrátit se do původního stavu (`git reset --hard`):
+* `zmena-readme -> martin/zmena-readme`
+* `master -> origin/master` - ukázat rozdíl s `git reset --soft` (jen posune ukazatel, neaktualizuje working dir.)
+
+### `rebase`, +interaktivní
+Pomocí `rebase` doslova přeroubovat celou větev na `master` (doplní pouze chybějící commity).
+* způsobí změnu SHA (rodič v hlavičce)
+
+* `reword`
+* `reorder`
+* `squash` / `fixup`
+* `remove`
+* `edit` (možno např. přidat další soubor)
 
 ## stash - dočasné odložení rozdělané práce
 Přesuneme se na `master` větev:
