@@ -15,6 +15,12 @@
   l = log --graph --decorate --pretty=oneline --abbrev-commit --all -n5
   ```
 
+## Štábní kultura
+* styl commit messages (např. prefix komponenty?)
+* číslo issue v komentáři jako reference
+* pojmenování větví (`feature/abc`, `bugfix/abc`, `master`, ...)
+* lineární historie?
+* ...
 
 ## Cvičení: Změna existujícího commitu, rozdílné local+remote větve
 * naklonovat/forknout `roboprojekt` repo (https://github.com/PyLadiesCZ/roboprojekt)
@@ -82,7 +88,11 @@ Přesuneme se na `master` větev:
 * Wrap the body at 72 characters
 * Use the body to explain what and why vs. how
 
-# Malé drobky
+## Cvičení: Jak obnovit smazanou větev
+* `git reflog`
+
+## Malé drobky
 * `git grep 'Tile'` vs. `git grep 'Tile('`
 * `git blame backend.py`
 * `git add -p`
+* `git rm`, `git mv`
