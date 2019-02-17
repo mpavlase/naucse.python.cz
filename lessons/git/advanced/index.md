@@ -57,7 +57,6 @@ Vrátit se do původního stavu (`git reset --hard`):
 ### `rebase`, +interaktivní
 Pomocí `rebase` doslova přeroubovat celou větev na `master` (doplní pouze chybějící commity).
 * způsobí změnu SHA (rodič v hlavičce)
-
 * `reword`
 * `reorder`
 * `squash` / `fixup`
@@ -66,6 +65,7 @@ Pomocí `rebase` doslova přeroubovat celou větev na `master` (doplní pouze ch
 
 ## stash - dočasné odložení rozdělané práce
 Přesuneme se na `master` větev:
+
 * zeditovat `README.md`
 * `git co <nekam>`
 * `git stash push [-m my-message]`, příp. `--include-untracked` 
