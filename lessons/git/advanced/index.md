@@ -96,3 +96,4 @@ Přesuneme se na `master` větev:
 * `git blame backend.py`
 * `git add -p`
 * `git rm`, `git mv`
+* `git checkout <commit> -- file.py`
