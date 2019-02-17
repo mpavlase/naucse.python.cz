@@ -17,10 +17,14 @@
 
 ## Štábní kultura
 * styl commit messages (např. prefix komponenty?)
-* číslo issue v komentáři jako reference
+* nejdůležitější je první řádek commit message - krátký, do 50 zn.
+* jeden commit = jedna logická změna
 * pojmenování větví (`feature/abc`, `bugfix/abc`, `master`, ...)
-* lineární historie?
+* lineární historie vs. PR/MR
+* čištění historie pomocí `--amend`, `rebase -i, squash`
+* číslo issue v komentáři jako reference
 * ...
+
 
 ## Cvičení: Změna existujícího commitu, rozdílné local+remote větve
 * naklonovat/forknout `roboprojekt` repo (https://github.com/PyLadiesCZ/roboprojekt)
@@ -92,6 +96,8 @@ Přesuneme se na `master` větev:
 * `git reflog`
 
 ## Malé drobky
+* *na délce nezáleží*
+* `git log --oneline`
 * `git grep 'Tile'` vs. `git grep 'Tile('`
 * `git blame backend.py`
 * `git add -p`
