@@ -63,6 +63,10 @@ Pomocí `rebase` doslova přeroubovat celou větev na `master` (doplní pouze ch
 * `remove`
 * `edit` (možno např. přidat další soubor)
 
+## Samostatné cvičení: "Commitnula jsem do špatné větve!"
+* cherry-pick
+* reset
+
 ## stash - dočasné odložení rozdělané práce
 Přesuneme se na `master` větev:
 
