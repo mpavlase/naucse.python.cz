@@ -108,7 +108,8 @@ https://chris.beams.io/posts/git-commit/
 * `git reflog`
 
 ## Malé drobky
-* *na délce nezáleží*
+* *na délce nezáleží* (hash)
+* meld ![meld](http://meldmerge.org/images/meld-merge-full.png)
 * `git log --oneline`
 * `git shortlog` - seskupení commitů podle autorů
 * `git grep 'Tile'` vs. `git grep 'Tile('`
