@@ -38,6 +38,11 @@ Přesuneme se na `master` větev:
 * `git stash list`, `pop`, `drop`, `clear`
 
 
+----------
+
+`watch -n 0.1 --color git l --color=always`
+
+----------
 
 
 ## Cvičení: Změna existujícího commitu, rozdílné local+remote větve
