@@ -111,6 +111,7 @@ https://chris.beams.io/posts/git-commit/
 * *na délce nezáleží* (hash)
 * meld ![meld](http://meldmerge.org/images/meld-merge-full.png)
 * `git log --oneline`
+* `git remote prune origin` - smaže lokálních reference na neexistující remote větve
 * `git shortlog` - seskupení commitů podle autorů
 * `git grep 'Tile'` vs. `git grep 'Tile('`
 * `git blame backend.py`
