@@ -1,5 +1,7 @@
 # Pokročilé příkazy v Gitu
 
+![asdf](https://imgs.xkcd.com/comics/git.png)
+
 ## Konfigurace
 * `git config [--global] -e`
 * používat `[Tab]`!
