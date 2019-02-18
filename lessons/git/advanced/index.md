@@ -28,6 +28,18 @@
 * ...
 
 
+
+## stash - dočasné odložení rozdělané práce
+Přesuneme se na `master` větev:
+
+* zeditovat `README.md`
+* `git co <nekam>`
+* `git stash push [-m my-message]`, příp. `--include-untracked` 
+* `git stash list`, `pop`, `drop`, `clear`
+
+
+
+
 ## Cvičení: Změna existujícího commitu, rozdílné local+remote větve
 * naklonovat/forknout `roboprojekt` repo (https://github.com/PyLadiesCZ/roboprojekt)
 * Nová větev (`git co -b vetvicka` / `git br`) do vlastního remote (`git remote -v`)
@@ -49,6 +61,9 @@ Existuje několik možnosti, co se s tím dá dělat (pozn.: Udělat si zálohu 
 1. `git pull -r` (rebase, výsledek stejný jako výše)
 1. teprve `git pull` zakomponuje změnu i do remote větve, ale už jako `merge` commit (udělá to samé, co `git merge origin/vetvicka`)
 1. `git push -f` (force) přepíše historii i na githubu
+
+## `revert`
+1. "vyrušit" commit `4d206cef72249632`
 
 ## Cvičení: remote, fetch, reset, rebase
 **Cíl**: umět přidat remote a synchronizovat si od něj změny
@@ -79,20 +94,15 @@ Pomocí `rebase` doslova přeroubovat celou větev na `master` (doplní pouze ch
 * cherry-pick
 * reset
 
-## stash - dočasné odložení rozdělané práce
-Přesuneme se na `master` větev:
-
-* zeditovat `README.md`
-* `git co <nekam>`
-* `git stash push [-m my-message]`, příp. `--include-untracked` 
-* `git stash list`, `pop`, `drop`, `clear`
-
 ## Commit message good practises
+https://chris.beams.io/posts/git-commit/
+
 * Separate subject from body with a blank line
-* Limit the subject line to 50 characters
+* Limit the subject line (= 1st line) to 50 characters
 * Use the imperative mood in the subject line
+  * *If applied, this commit will **your subject line here***
 * Wrap the body at 72 characters
-* Use the body to explain what and why vs. how
+* Use the body to explain what and *why* vs. *how*
 
 ## Cvičení: Jak obnovit smazanou větev
 * `git reflog`
@@ -100,6 +110,7 @@ Přesuneme se na `master` větev:
 ## Malé drobky
 * *na délce nezáleží*
 * `git log --oneline`
+* `git shortlog` - seskupení commitů podle autorů
 * `git grep 'Tile'` vs. `git grep 'Tile('`
 * `git blame backend.py`
 * `git add -p`
