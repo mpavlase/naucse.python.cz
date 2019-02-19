@@ -15,6 +15,13 @@
   s = status
   c = commit
   l = log --graph --decorate --pretty=oneline --abbrev-commit --all -n5
+  
+  [color]
+  ui = always
+  
+  [user]
+  name = ...
+  email = ...
   ```
 
 ## Štábní kultura
