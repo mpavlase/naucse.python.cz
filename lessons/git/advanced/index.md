@@ -23,18 +23,8 @@
   name = ...
   email = ...
   ```
-
-## Štábní kultura
-* styl commit messages (např. prefix komponenty?)
-* nejdůležitější je první řádek commit message - krátký, do 50 zn.
-* jeden commit = jedna logická změna
-* pojmenování větví (`feature/abc`, `bugfix/abc`, `master`, ...)
-* lineární historie vs. PR/MR
-* čištění historie pomocí `--amend`, `rebase -i, squash`
-* číslo issue v komentáři jako reference
-* ...
-
-
+  
+  
 
 ## stash - dočasné odložení rozdělané práce
 Přesuneme se na `master` větev:
@@ -47,35 +37,14 @@ Přesuneme se na `master` větev:
 
 ----------
 
-`watch -n 0.1 --color git l --color=always`
+`watch -n 0.1 --color git l -n20`
+
+`watch -n 0.1 --color git s`
+
+`watch -n 0.1 --color git reflog -n15`
 
 ----------
 
-
-## Cvičení: Změna existujícího commitu, rozdílné local+remote větve
-* naklonovat/forknout `roboprojekt` repo (https://github.com/PyLadiesCZ/roboprojekt)
-* Nová větev (`git co -b vetvicka` / `git br`) do vlastního remote (`git remote -v`)
-* přidáme nový soubor `stromecek.txt` -> commit (na obsahu nezáleží)
-* `git push origin -u origin vetvicka` (`--set-upstream`)
-
-Větev `vetvicka` teď "trčí" o jeden commit nad `master` lokálně i na githubu (`origin/master`).
-
-* `git c --amend [--no-edit]` změnit commit message - AHOJ
-* `git diff origin/master` nic neukáže, ale přesto má jiný hash. Proč? (hlavička je taky součástí hashe)
-
-Chceme ho přesto pushnout.
-
-* `git push` (origin netřeba specifikovat díky minulému `-u`)
-* selže, protože lokální ukazatel na `vetvicka` (=commit) nenavazuje na `origin/vetvicka`
-
-Existuje několik možnosti, co se s tím dá dělat (pozn.: Udělat si zálohu jako `vetvicka.orig`).
-1. `git rebase origin/vetvicka` - způsobí jen posun ukazatele, změna v commit msg se zahodí
-1. `git pull -r` (rebase, výsledek stejný jako výše)
-1. teprve `git pull` zakomponuje změnu i do remote větve, ale už jako `merge` commit (udělá to samé, co `git merge origin/vetvicka`)
-1. `git push -f` (force) přepíše historii i na githubu
-
-## `revert`
-1. "vyrušit" commit `4d206cef72249632`
 
 ## Cvičení: remote, fetch, reset, rebase
 **Cíl**: umět přidat remote a synchronizovat si od něj změny
@@ -105,6 +74,45 @@ Pomocí `rebase` doslova přeroubovat celou větev na `master` (doplní pouze ch
 ## Samostatné cvičení: "Commitnula jsem do špatné větve!"
 * cherry-pick
 * reset
+
+
+
+## Cvičení: Změna existujícího commitu, rozdílné local+remote větve
+* fork roboprojektu `roboprojekt` repo (https://github.com/PyLadiesCZ/roboprojekt)
+* přidat 1 commit do nové větve (`git co -b vetvicka` / `git br`) do vlastního remote (`git remote -v`)
+* `git push origin -u origin vetvicka` (`--set-upstream`)
+
+Větev `vetvicka` teď "trčí" o jeden commit nad `master` lokálně i na githubu (`origin/master`).
+
+* `git c --amend [--no-edit]` změnit commit message - AHOJ
+* `git diff origin/master` nic neukáže, ale přesto má jiný hash. Proč? (hlavička je taky součástí hashe)
+
+Chceme ho přesto pushnout.
+
+* `git push` (origin netřeba specifikovat díky minulému `-u`)
+* selže, protože lokální ukazatel na `vetvicka` (=commit) nenavazuje na `origin/vetvicka`
+
+Existuje několik možnosti, co se s tím dá dělat (pozn.: Udělat si zálohu jako `vetvicka.orig`).
+1. `git rebase origin/vetvicka` - způsobí jen posun ukazatele, změna v commit msg se zahodí
+1. `git pull -r` (rebase, výsledek stejný jako výše)
+1. teprve `git pull` zakomponuje změnu i do remote větve, ale už jako `merge` commit (udělá to samé, co `git merge origin/vetvicka`)
+1. `git push -f` (force) přepíše historii i na githubu
+
+## `revert`
+1. "vyrušit" commit `4d206cef72249632`
+
+
+
+## Štábní kultura
+* styl commit messages (např. prefix komponenty?)
+* nejdůležitější je první řádek commit message - krátký, do 50 zn.
+* jeden commit = jedna logická změna
+* pojmenování větví (`feature/abc`, `bugfix/abc`, `master`, ...)
+* lineární historie vs. PR/MR
+* čištění historie pomocí `--amend`, `rebase -i, squash`
+* číslo issue v komentáři jako reference
+* ...
+
 
 ## Commit message good practises
 https://chris.beams.io/posts/git-commit/
