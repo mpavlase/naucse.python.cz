@@ -2,6 +2,8 @@
 
 ![asdf](https://imgs.xkcd.com/comics/git.png)
 
+Tahák: [big-git-cs.pdf](https://github.com/pyvec/cheatsheets/blob/master/big-git/big-git-cs.pdf)
+
 ## Konfigurace
 * `git config [--global] -e`
 * používat `[Tab]`!
