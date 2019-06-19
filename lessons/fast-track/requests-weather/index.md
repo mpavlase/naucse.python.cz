@@ -68,18 +68,32 @@ dostat. Ale pozor! Pokud v odpovědit nejsou data v tomto formátu, dostanete
 chybu!
 
 
-## Kurzy měn
+JSON API na hraní nalezneš například na:
 
-Začneme zvolna - zkusíme si stáhnout aktuální kurzy měn, které poskyuje [Česká
-národní banka](https://www.cnb.cz/) na adrese:
+https://jsonplaceholder.typicode.com/todos/1
 
-Výstup pro lidi:
+https://jsonplaceholder.typicode.com/users
 
-https://www.cnb.cz/cs/financni-trhy/devizovy-trh/kurzy-devizoveho-trhu/kurzy-devizoveho-trhu/
 
-Výstup pro vývojáře:
+# Není jenom JSON
 
-https://www.cnb.cz/cs/financni-trhy/devizovy-trh/kurzy-devizoveho-trhu/kurzy-devizoveho-trhu/denni_kurz.txt
+Ačkoli je formát JSON jedním z *velmi* oblíbených formátů pro výměnu dat skrze
+API. Neznamená to, že je jediný - například formát XML, nebo taky CSV (_comma
+separated values_)
+
+## Kurzy měn podle ČNB
+
+Kupříkladu [Česká národní banka](https://www.cnb.cz/) poskytuje převodní sazby
+kurzů ve dvou formách:
+
+Pro živé lidi:
+
+> https://www.cnb.cz/cs/financni-trhy/devizovy-trh/kurzy-devizoveho-trhu/kurzy-devizoveho-trhu/
+
+
+Pro vývojáře, další programy:
+> https://www.cnb.cz/cs/financni-trhy/devizovy-trh/kurzy-devizoveho-trhu/kurzy-devizoveho-trhu/denni_kurz.txt
+
 
 
 
