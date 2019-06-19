@@ -68,7 +68,7 @@ dostat. Ale pozor! Pokud v odpovědit nejsou data v tomto formátu, dostanete
 chybu!
 
 
-## Kurzy měn
+## Další API na hraní
 
 Začneme zvolna - zkusíme si stáhnout aktuální kurzy měn, které poskyuje [Česká
 národní banka](https://www.cnb.cz/) na adrese:
@@ -82,6 +82,11 @@ Výstup pro vývojáře:
 https://www.cnb.cz/cs/financni-trhy/devizovy-trh/kurzy-devizoveho-trhu/kurzy-devizoveho-trhu/denni_kurz.txt
 
 
+JSON API:
+
+https://jsonplaceholder.typicode.com/todos/1
+
+https://jsonplaceholder.typicode.com/users
 
 
 # Příklad: Jaké bude počasí v Brně?
