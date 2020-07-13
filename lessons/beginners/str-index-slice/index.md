@@ -156,3 +156,33 @@ abys v tom měl{{a}} lepší přehled:
                       ╰───────────╯
                       'čokoláda'[-3:] == 'áda'
 ```
+
+
+## Cvičení
+
+Zkus napsat funkci `zamen(retezec, pozice, znak)`.
+
+Tato funkce vrátí řetězec, který má na dané pozici
+daný znak; jinak je stejný jako původní `retezec`. Například:
+
+```python
+# Zaměň třetí znak ve slově "čokoláda"
+print(zamen('čokoláda', 3, 'u'))   # → čokuláda
+```
+
+Pozor na to, že řetězce v Pythonu nelze měnit.
+Nemůžeš v existujícím řetězci zaměnit jeden znak za jiný;
+musíš vytvořit nový řetězec poskládaný z částí toho starého.
+
+{% filter solution %}
+```python
+def zamen(retezec, pozice, znak):
+    """Zamění znak na dané pozici
+
+    Vrátí řetězec, který má na dané pozici daný znak;
+    jinak je stejný jako vstupní retezec
+    """
+
+    return retezec[:pozice] + znak + retezec[pozice + 1:]
+```
+{% endfilter %}

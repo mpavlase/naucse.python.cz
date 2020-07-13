@@ -37,7 +37,7 @@ Takový znak může být písmenko (např. `A`) nebo číslice (`3`),
 ale i jiný symbol (`!`).
 
 Každý řetězec má určitý počet znaků.
-Kolik, to nám umí říct funkce `len()`.
+Kolik, to zjistíš pomocí funkce `len()`.
 Třeba řetězec `Ahoj!` má znaků pět:
 
 ```pycon
@@ -75,9 +75,10 @@ Podobně `4.0` a `4.000` jsou dva zápisy téhož čísla,
 tak `'slovo'` a `"slovo"` pro Python označuje stejnou
 hodnotu, skládající se ze stejných pěti písmen.
 
-Použité uvozovky nejsou součástí hodnoty – Python si „nepamatuje“, jakým
+Použité uvozovky nejsou součástí hodnoty – python si „nepamatuje“, jakým
 způsobem byl řetězec uvozen.
-Když má nějaký řetězec vypsat, jedny si k tomu vybere – většinou ty jednoduché:
+Když má nějaký řetězec vypsat s uvozovkami, jedny si k tomu vybere – většinou
+ty jednoduché:
 
 ```pycon
 >>> "python"
@@ -87,7 +88,7 @@ Když má nějaký řetězec vypsat, jedny si k tomu vybere – většinou ty j
 ```
 
 > [note]
-> Předchozí příklad je z interaktivního režimu Pythonu, který ukazuje hodnoty 
+> Předchozí příklad je z interaktivního režimu Pythonu, který ukazuje hodnoty
 > výrazů „programátorsky“ – pokud možno tak, jak se zapisují v Pythonu.
 > Funkce `print()` vypisuje hodnoty „hezky“, „pro uživatele“ – v případě
 > řetězců tedy bez uvozovek.
@@ -101,11 +102,9 @@ Občas se stane, že v rámci textu potřebuješ použít samotnou uvozovku (neb
 apostrof).
 Pak musíš „kolem“ řetězce použít tu druhou:
 
-```pycon
->>> len('Zpívala si: "Tralala!"')
-22
->>> len("Byl to Goa'uld, parazit z planety P3X-888")
-41
+```python
+print('Zpívala si: "Tralala!"')
+print("Byl to Goa'uld, parazit z planety P3X-888")
 ```
 
 Když v rámci textu použiješ stejnou uvozovku jako „kolem něj“, tak bude Python
@@ -151,12 +150,12 @@ Vtom vnuk křik': "Hleď!"
 Ve výsledném řetězci pak ovšem žádné zpětné lomítko *není*.
 Sekvence `\'` je jen způsob, jak v Pythonu zadat `'` – jediný znak.
 Tomu je celkem důležité porozumět.
-Zkus si, jestli zvládneš předpovědět výsledek těchto příkazů:
+Zkus si, jestli zvládneš předpovědět výsledek těchto výrazů:
 
-```python
-print(".\".")
-len(".\".")
-".\"."  # (v interaktivním režimu)
+```pycon
+>>> print(".\".")
+>>> len(".\".")
+>>> ".\"."
 ```
 
 {% filter solution %}
@@ -171,7 +170,7 @@ len(".\".")
 {% endfilter %}
 
 
-Znaků, které se zadávají sekvencí se zpětným lomítkem je více.
+Znaků, které se zadávají sekvencí se zpětným lomítkem, je více.
 Jedna ze zajímavějších je `\t`, představující tabulátor – jediný znak, který
 se, když ho vypíšeš, „roztáhne“ na víc mezer.
 
@@ -187,7 +186,7 @@ a       b
 Se zpětným lomítkem se dá zadat jakýkoli znak – včetně *emoji* – podle jména
 (`\N{…}`) nebo identifikačního čísla (`\x..`, `\u....`, `\U........`)
 standardu Unicode.
-Stačí přesné jméno nebo číslo znát (nebo dohledat).
+Stačí přesné jméno nebo číslo znát (nebo třeba dohledat na internetu).
 V následujících řetězcích jsou takové znaky pro přehlednost mezi dvěma
 pomlčkami `-`. Délka každého řetězce je tedy celkem 3:
 
@@ -241,7 +240,7 @@ Co se stalo?
 ```
 
 Ono `\n` do řetězce vloží znak nového řádku.
-Ten při výpisu ukončí stávající řádek a přede na nový – ale jinak se chová
+Ten při výpisu ukončí stávající řádek a přejde na nový – ale jinak se chová
 jako jakýkoli jiný znak:
 
 ```pycon
@@ -311,6 +310,8 @@ if True:
     print(len("""a
     b"""))
 
-{# 7, 8, 9, 10 #}
+{# 7, 8, 9, more #}
 print(len('C:\new_dir'))
+
+print(len(f'{print}'))
 ```

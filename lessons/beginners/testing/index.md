@@ -193,7 +193,7 @@ na Kámen-Nůžky-Papír.
 Kód pro Kámen-Nůžky-Papír může, velice zjednodušeně, vypadat zhruba takto:
 
 ```python
-import random  # (příp. import jiných věci, které budou potřeba)
+import random  # (příp. import jiných věcí, které budou potřeba)
 
 tah_pocitace = 'kámen'
 tah_hrace = input('Kam chceš hrát?')

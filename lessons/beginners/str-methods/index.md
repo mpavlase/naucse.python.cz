@@ -61,6 +61,7 @@ print(retezec)
 >
 > To je obecná vlastnost řetězců v Pythonu: jednou existující řetězec se už
 > nedá změnit, dá se jen vytvořit nějaký odvozený.
+> S touto vlastností už ses mohl{{a}} setkat při psaní funkce `zamen`.
 
 
 ### Iniciály
@@ -96,8 +97,12 @@ Doporučuji spíš první způsob, ten se smysluplnými názvy proměnných.
 Je sice delší, ale mnohem přehlednější.
 {% endfilter %}
 
+
+### A další
+
 Řetězcových metod je celá řada.
 Nejužitečnější z nich najdeš v [taháku](https://pyvec.github.io/cheatsheets/strings/strings-cs.pdf), který si můžeš stáhnout či vytisknout.
+Podívej se na ně a zjisti, co dělají.
 
 A úplně všechny řetězcové metody jsou popsány v [dokumentaci Pythonu](https://docs.python.org/3/library/stdtypes.html#string-methods) (anglicky; plné věcí, které ještě neznáš).
 
@@ -170,4 +175,3 @@ nove_slovo = slovo[:pozice] + novy_znak + slovo[pozice + 1:]
 ```
 
 {% endfilter %}
-
