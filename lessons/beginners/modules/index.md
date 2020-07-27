@@ -11,8 +11,9 @@ print(sqrt(2))
 
 Kromě importování jednotlivých proměnných z modulu
 můžeš importovat i celý modul najednou.
-K tomu, co modul nabízí, se pak dostaneš pomocí tečky,
-podobně jako se pomocí `'Ahoj'.upper` dostaneš k metodě kterou nabízí řetězec.
+K tomu, co modul nabízí, se pak dostaneš pomocí
+tečky – podobně jako se pomocí `'Ahoj'.upper` dostaneš k metodě, kterou nabízí
+řetězec.
 
 Například:
 
@@ -44,8 +45,8 @@ print(math.cos(math.pi))
 ## Vlastní moduly
 
 A teď to hlavní!
-Můžeš vytvořit vlastní importovatelný modul.
-Jak? Jen tak, že uděláš pythonní soubor.
+Můžeš vytvořit vlastní importovatelný modul
+a to jen tak, že uděláš pythonní soubor.
 Funkce, které v něm nadefinuješ, a globální proměnné,
 které v něm nastavíš, pak budou k dispozici tam, kde modul naimportuješ.
 
@@ -61,7 +62,8 @@ def popis_stav():
         barva=barva_travy, pocet=pocet_kotatek)
 ```
 
-A pak do dalšího souboru, třeba `vypis.py`, napiš:
+
+A pak v dalším souboru, třeba `vypis.py`, napiš:
 
 ```python
 import louka
@@ -69,7 +71,7 @@ import louka
 print(louka.popis_stav())
 ```
 
-A pak spusť `vypis.py`:
+a pak spusť:
 
 ```console
 $ python vypis.py
@@ -77,7 +79,7 @@ $ python vypis.py
 
 Příkaz `import` hledá soubory (mimo jiné) v adresáři,
 ve kterém je „hlavní modul” programu – tedy soubor,
-který spouštíš (tady `vypis.py`).
+který spouštíš (u nás `vypis.py`).
 Oba soubory by proto měly být ve stejném adresáři.
 
 
@@ -99,8 +101,8 @@ Zkus si to – na konci `louka.py` dopiš:
 print('Louka je zelená!')
 ```
 
-A pak spusť `python` (máš-li ho už spuštěný, ukonči a spusť znovu).
-Zadej:
+Spusť `python` (máš-li ho už spuštěný, ukonči a spusť znovu)
+a zadej v něm:
 
 ```pycon
 >>> print('První import:')
@@ -136,7 +138,7 @@ Příkaz `print` proto radši z modulu zase smaž.
 
 ## Adresář pro každý projekt
 
-Od teď budeme občas psát větší projekty,
+Od teď budeš občas psát větší projekty,
 které budou obsahovat více souvisejících souborů.
-Je dobré pro každý takový projekt udělat
-zvláštní adresář.
+Pro každý takový projekt si udělej zvláštní adresář.
+Lépe se pak vyznáš v tom, ke kterému projektu který soubor patří.

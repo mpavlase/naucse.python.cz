@@ -2,23 +2,23 @@
 
 Programátorská práce nespočívá jen v tom, program napsat.
 Důležité je si i ověřit, že opravdu funguje, a případně ho pak opravit.
-Tomu ověřování že program funguje se říká *testování* (angl. *testing*).
+Ověřování, že program funguje, se říká *testování* (angl. *testing*).
 
 Zatím jsi asi svoje programy testoval{{a}} tak, že jsi
 je zkusil{{a}} spustit, něco zadal{{a}} a podíval{{a}} se,
 jestli jsou výsledky v pořádku.
 U větších programů, které budou mít více a více
 možností, ale bude těžší a těžší takhle zkontrolovat,
-jestli všechny ty možnosti fungují jak mají.
+jestli všechny ty možnosti fungují, jak mají.
 
-Proto programátoři často nezkouší programy „ručně“.
+Proto si programátoři často nezkouší programy „ručně“.
 Píšou jiné programy, které jejich výtvory testují za ně.
 
 *Automatické testy* jsou funkce, které
-zkontrolují že program funguje správně.
+zkontrolují, že program funguje správně.
 Spuštěním testů můžeš kdykoli ověřit, že kód funguje.
 Když v otestovaném kódu v budoucnu uděláš nějakou změnu,
-testy ověří, že jsi nerozbil{{a}} nic co dříve fungovalo.
+testy ověří, že jsi nerozbil{{a}} nic, co dříve fungovalo.
 
 
 ## Instalace knihovny pytest
@@ -86,12 +86,15 @@ Potom zadej následující příkaz.
 
 Nejdříve si testování ukážeme na jednoduchém příkladu.
 Tady je funkce `secti`, která umí sečíst
-dvě čísla, a další funkce, která testuje jestli se
-`secti` pro určité hodnoty chová správně.
+dvě čísla, a další funkce, která testuje, jestli se
+`secti` pro určité hodnoty
+chová správně.
 
-Kód si opiš do souboru `test_secteni.py` v novém prázdném adresáři.
-Jméno je důležité: `pytest` ve výchozím nastavení předpokládá,
-že jména jak souborů s testy tak samotných testovacích funkcí začínají na
+Kód si opiš do souboru `test_secteni.py`,
+v novém prázdném adresáři.
+Pro `pytest` je (ve výchozím nastavení)
+důležité, aby jména jak souborů s testy, tak
+samotných testovacích funkcí, začínala na
 `test_`.
 
 ```python
@@ -105,7 +108,7 @@ def test_secti():
 Co se v té testovací funkci děje?
 
 Příkaz `assert` vyhodnotí výraz za ním a pokud výsledek není pravdivý,
-vyvolá výjimku která způsobí že test selže.
+vyvolá výjimku, která způsobí, že test selže.
 Můžeš si představit, že `assert a == b` dělá následující:
 
 ```python
@@ -144,7 +147,7 @@ test_secteni.py::test_secti PASSED                                       [100%]
 ```
 
 Tento příkaz projde zadaný soubor, zavolá v něm všechny funkce,
-jejichž jméno začíná na `test_`, a ověří že nevyvolají žádnou
+jejichž jméno začíná na `test_`, a ověří, že nevyvolají žádnou
 výjimku – typicky výjimku z příkazu `assert`.
 Pokud výjimka nastane, dá to `pytest` velice červeně
 najevo a přidá několik informací, které můžou
@@ -330,7 +333,7 @@ se jmenují *negativní testy*.
 
 Na otestování výjimky použij příkaz `with` a funkci `raises` naimportovanou
 z modulu `pytest`.
-Jak příkaz `with` přesně funguje, to se dozvíme později;
+Jak příkaz `with` přesně funguje, se dozvíš později;
 teď stačí říct, že ověří, že odsazený blok kódu
 pod ním vyvolá danou výjimku:
 

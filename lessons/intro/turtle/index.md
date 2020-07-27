@@ -209,7 +209,7 @@ exitonclick()
 Tolik kódu! Tohle musí jít nějak zjednodušit!
 
 Jde.
-Pojďme se naučit jak v Pythonu nějakou činnost opakovat.
+Pojďme se naučit, jak v Pythonu nějakou činnost opakovat.
 
 
 ## Jak opakovat – a neopakovat *se*
@@ -259,7 +259,7 @@ Pythonní <code>for <var>promenna</var> in <var>sekvence</var></code>
 znamená „Pro každé <var>promenna</var> ze <var>sekvence</var>“.
 
 Jméno proměnné si volíš {{gnd('sám', 'sama')}}.
-Příkaz `for` danou proměnnou vždy na *nastaví* na aktuální
+Příkaz `for` danou proměnnou vždy *nastaví* na aktuální
 hodnotu a pak provede všechno, co je v odsazeném těle cyklu.
 Program výše tedy funguje úplně stejně, jako kdybys napsal{{a}}:
 

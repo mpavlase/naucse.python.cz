@@ -16,7 +16,7 @@ jednoduchý.
 Jako příklad uvedu nám už známý kód, který v určitém řetězci zamění znak
 na dané pozici:
 
-```
+```python
 zacatek = slovo[:pozice]
 konec = slovo[pozice + 1:]
 nove_slovo = zacatek + novy_znak + konec
@@ -28,7 +28,7 @@ Zvlášť když kód použiješ ve složitějším programu.
 Dá se to vyřešit komentářem: ten, kdo bude program číst, si může přečíst
 co to má dělat. Samotný složitější kód pak může ignorovat.
 
-```
+```python
 # Ve slově `slovo` zaměnit znak na pozici `pozice` za `novy_znak`;
 # výsledek bude v proměnné `nove_slovo`.
 zacatek = slovo[:pozice]
@@ -41,7 +41,7 @@ provede.
 Jakmile takovou funkci vytvoříš, ve složitějším programu pak můžeš místo kódu
 výše psát jen:
 
-```
+```python
 nove_slovo = zamen(slovo, pozice, novy_znak)
 ```
 
@@ -52,7 +52,7 @@ Nebo řekneš želvě `forward(100)` a nezatěžuješ se tím, jak si želva „
 svůj aktuální úhel natočení nebo jak se vlastně kreslí čára.
 
 Funkce umožňuje *pojmenovat* nějaký kousek programu, který se pak dá
-použít pomocí jména bez detailních znalosti toho, jak to vevnitř funguje.
+použít pomocí jména bez detailních znalostí toho, jak to vevnitř funguje.
 
 
 ## Definice funkce
@@ -62,7 +62,7 @@ příkazu, neměl by ti zápis funkce připadat příliš zvláštní:
 
 ```python
 def zamen(slovo, pozice, novy_znak):
-    "V daném slově zamění znak na dané pozici za daný nový znak"
+    """V daném slově zamění znak na dané pozici za daný nový znak."""
     zacatek = slovo[:pozice]
     konec = slovo[pozice + 1:]
     nove_slovo = zacatek + novy_znak + konec
@@ -78,7 +78,11 @@ Funkce se *definuje* příkazem `def`, za nějž napíšeš jméno funkce,
 pak do závorky seznam *parametrů*, které funkce bere, a pak dvojtečku.
 
 Potom následuje odsazené *tělo funkce* – příkazy, které funkce provádí.
-Tělo může začít *dokumentačním řetězcem*, který popisuje, co funkce dělá.
+
+Tělo může začít *dokumentačním řetězcem* (angl. *docstring*), který popisuje
+co funkce dělá.
+To může být jakýkoli řetězec, ale tradičně se uvozuje třemi uvozovkami
+(i v případě že je jen jednořádkový).
 
 Příkazem `return` pak můžeš z funkce *vrátit* nějakou hodnotu.
 
@@ -88,7 +92,7 @@ Takže když zavoláš třeba `zamen('kočka', 1, 'a')`,
 můžeš si představit, že se provede toto:
 
 ```python
-# Nastavení proměnných podle zadaných parametrů
+# Nastavení proměnných podle zadaných argumentů
 slovo = 'kočka'
 pozice = 1
 novy_znak = 'a'
@@ -109,7 +113,7 @@ Následující procedura třeba vypíše skóre daného hráče a k tomu hláš
 
 ```python
 def napis_hlasku(nazev, skore):
-    "Popíše skóre. Název má být přivlastňovací přídavné jméno."
+    """Popíše skóre. Název má být přivlastňovací přídavné jméno."""
 
     print(nazev, 'skóre je', skore)
     if skore > 1000:
@@ -169,7 +173,7 @@ Třeba, chceš-li odpověď „ano“ nebo „ne“:
 
 ```python
 def ano_nebo_ne(otazka):
-    "Vrátí True nebo False podle odpovědi uživatele"
+     """Vrátí True nebo False podle odpovědi uživatele"""
     while True:
         odpoved = input(otazka)
         if odpoved == 'ano':
@@ -204,7 +208,7 @@ def obsah_elipsy(a, b):
 print('Obsah elipsy s poloosami 3 a 5 je', obsah_elipsy(3, 5), 'cm2')
 ```
 
-Takový program se teoreticky dá napsat i s procedurou, tedy funkcí která nic
+Takový program se teoreticky dá napsat i s procedurou, tedy funkcí, která nic
 nevrací.
 Procedura může výsledek třeba vypsat na obrazovku:
 
@@ -244,7 +248,7 @@ moje funkce dát použít jen v situacích, kdy je u počítače klávesnice a z
 člověk.
 Proto je lepší funkcím potřebné informace předávat jako argumenty
 a volání `input` (nebo čtení textového políčka či měření čidlem robota)
-nemít ve funkci, ale vně, v kódu který funkci volá:
+nemít ve funkci, ale vně, v kódu, který funkci volá:
 
 ```python
 from math import pi
@@ -260,9 +264,9 @@ y = float(input('Zadej délku poloosy 2: '))
 print('Obsah je', obsah_elipsy(x, y))
 ```
 
-Samozřejmě existují výjimky: procedura která přímo vytváří textový výpis
-(např. tabulku) může používat `print`; funkce která načítá textové informace
-(jako `ano_nebo_ne` výše) zase `input`.
+Samozřejmě existují výjimky: procedura, která přímo vytváří textový výpis
+(např. tabulku), může používat `print`; funkce, která načítá textové informace
+(jako `ano_nebo_ne` výše), zase `input`.
 Když ale funkce něco *počítá*, nebo když si nejsi jist{{gnd('ý', 'á')}},
 je dobré ve funkci `print` ani `input` nemít.
 
@@ -277,7 +281,7 @@ a znamená „nic“.
 
 ```python
 def nic():
-    "Tahle funkce nic nedělá"
+     """Tahle funkce nic nedělá """
 
 print(nic())
 ```

@@ -18,7 +18,7 @@ print(obsah_kruhu(100))
 
 Jinak je tomu ale v případě, kdy proměnnou nastavíš *uvnitř* funkce.
 
-Všechny argumenty a všechny proměnné, do kterých funkce přiřazuje,
+Všechny parametry a všechny proměnné, do kterých funkce přiřazuje,
 jsou *úplně nové* proměnné, které nemají nic
 společného s tím, co je „venku“ kolem funkce.
 
@@ -49,7 +49,7 @@ Podobně skončí s chybou i složitější program:
 
 ```python
 def zamen(slovo, pozice, novy_znak):
-    "V daném slově zamění znak na dané pozici za daný nový znak"
+    """V daném slově zamění znak na dané pozici za daný nový znak"""
     zacatek = slovo[:pozice]
     konec = slovo[pozice + 1:]
     nove_slovo = zacatek + novy_znak + konec
@@ -64,24 +64,24 @@ print(zacatek)  # NameError
 Funkce `zamen` jsi napsal{{a}} proto, abys nemusel{{a}} pořád opakovat detaily
 záměny písmenka.
 Jakmile je jednu nadefinovaná, stačí ji zavolat. Důležité jsou jen jméno
-funkce, argumenty a návratová hodnota; na detaily kódu uvnitř můžeš zapomenout.
+funkce, parametry a návratová hodnota; na detaily kódu uvnitř můžeš zapomenout.
 A to i díky lokálním proměnným, které detaily ve vnitřku funkce trochu líp
 izolují od zbytku programu.
 
 Ještě lépe je to vidět u funkcí, které jsi nenapsal{{a}} {{gnd('sám', 'sama')}}.
 Jak divné by bylo, kdyby po každém zavolání `print` byla najednou nastavená
-proměnná `i`, kterou `print` náhodou používá při procházení svých argumentů!
+proměnná `i`, kterou `print` náhodou používá při procházení svých parametrů!
 
 
 ## Přiřazení
 
 To, co dělá lokální proměnnou, je *přiřazení*.
 Porovnej `nastav_x` s příkladem na `obsah_kruhu` výše: rozdíl mezi `pi` a `x`
-je v tom, že do `x` se v rámci funkce funkce přiřazuje.
+je v tom, že do `x` se v rámci funkce přiřazuje.
 
 Co je to přiřazení? Všechno, co *nastavuje* nějakou proměnnou. Například:
 * Klasika je přiřazovat pomocí `=`, např. `a = 3`.
-* Argumenty funkce: funkce `def nastav_x(hodnota)` přiřadí do `hodnota`,
+* Parametry funkce: funkce `def nastav_x(hodnota)` přiřadí do `hodnota`,
 * Cyklus `for x in ...:` přiřazuje do proměnné `x`.
 * Pro úplnost, příkazy `def x(...):`, `import x` a `from ... import x` taky
   přiřazují do `x` – ale ve funkcích se moc nepoužívají.
@@ -160,11 +160,11 @@ Zkus odpovědět na tyto otázky:
   Tady byl chyták: příkaz `a = a + 3` nemá žádný smysl;
   do `a` se sice uloží větší číslo, ale vzápětí funkce `obsah_elipsy` skončí
   a její lokální proměnná `a` přestane existovat.
-* Proměnná `b` je jenom lokální – jako argument funkce `obsah_elipsy`.
+* Proměnná `b` je jenom lokální – jako parametr funkce `obsah_elipsy`.
 * Proměnná `obsah_elipsy` je globální (a je v ní funkce).
 
 > [note] A pro úplnost
-> 
+>
 > * Klíčová slova `from`, `import`, `def`, `return` neoznačují proměnné.
 > * Jméno modulu `math` taky neoznačuje proměnnou.
 > * Proměnná `print` se dá považovat za globální.
@@ -176,9 +176,9 @@ Zkus odpovědět na tyto otázky:
 
 ## Rada na závěr
 
-Pravidla pro lokální proměnné jsou pro začátečníky jednou z nejzvláštnějších 
+Pravidla pro lokální proměnné jsou pro začátečníky jednou z nejzvláštnějších
 věcí v Pythonu.
-Jsou ale užitečná – umožňují některé užitečné techniky, např. rekurzi.
+Jsou ale přínosná – umožňují některé užitečné techniky, např. rekurzi.
 
 Jestli ti to celé připadá složité, dá se tomu zatím vyhnout dodržováním jednoho
 pravidla:
