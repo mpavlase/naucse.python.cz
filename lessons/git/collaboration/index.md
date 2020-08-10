@@ -41,7 +41,7 @@ Roku 1985 publikoval
 [GNU Manifesto](https://www.gnu.org/gnu/manifesto.en.html),
 kde vysvětlil, proč hodlá vytvořit operační systém s otevřeným kódem a
 odstartoval tak hnutí svobodného softwaru.
-To prosazuje 4 následujících svobod (převzato
+To prosazuje 4 následující svobody (převzato
 z [Wikipedie](https://cs.wikipedia.org/wiki/Svobodn%C3%BD_software)):
 
 <ol start="0">
@@ -156,7 +156,7 @@ Možná je krátká, ale hlavně, že nějaká je.
 Máš na počítači kopii projektu, který založil někdo jiný!
 
 Jak už napovídá název repozitáře, tvůj příspěvek do tohoto projektu bude
-zápis do prezenčky; konkrétně přidání souboru s tvým jménem.
+zápis do prezenčky: konkrétně přidání souboru s tvým jménem.
 Jméno je to proto, aby nedocházelo ke kolizím: potřebujeme, aby příspěvky od
 všech lidí, kteří prochází tenhle kurz, byly jiné.
 
@@ -164,7 +164,7 @@ Tvůj příspěvek bude ovšem veřejně vystaven na internetu.
 Pokud nechceš vystavovat svoje občanské jméno, použij místo něj klidně
 přezdívku, oblíbené jídlo nebo pár náhodných písmen. Ale:
 * když budeš pojmenovávat soubor, buď originální, aby nedošlo ke konfliktům, a
-* nesdílej nic, co nemáš právo sdílet (např. texty písní).
+* nesdílej nic, co nemáš právo sdílet (např. texty moderních písní).
 
 
 ## Vytvoření větve
@@ -200,13 +200,13 @@ Spousta míst na Internetu (blogy, zpravodajství, e-shopy) funguje tak, že
 vybraná skupina lidí, „editorů“, má právo měnit obsah, jak se jim líbí.
 Takovým editorům musí správce projektu věřit, než jim přístup povolí.
 
-S Gitem se používá trožku jiný mechanismus:
+S Gitem se používá trošku jiný mechanismus:
 změny nahraješ do *vlastního* sdíleného
 repozitáře, který máš právo měnit jen ty.
 Majiteli původního projektu pak napíšeš
 žádost o začlenění těch změn (angl. *pull request*).
 Může to být třeba mail se slovy „Hele, na té a té
-adrese mám nějaké změny, které by se ti mohli hodit!
+adrese mám nějaké změny, které by se ti mohly hodit!
 Přidej je do svého projektu!”
 
 Výhoda je v tom, že se do projektu – pokud je
@@ -218,7 +218,7 @@ ne, to už je jiná věc – ale můžou posuzovat samotnou
 změnu, ne důvěryhodnost jejího autora.
 
 Služby jako [github.com](https://github.com/)
-ti umožňují si udělat vlastní sdílený repozitář (který bude k dispozici na 
+ti umožňují si udělat vlastní sdílený repozitář (který bude k dispozici na
 internetu) a zjednodušují začleňování změn (místo posílání mailů stačí
 zmáčknout tlačítko). Pojďme se podívat, jak na to.
 
@@ -244,8 +244,8 @@ adresa by měla být něco jako
 > Třetí kopii repozitáře pak máš u sebe na počítači.
 > K té se dostaneš jen ty.
 >
-> Z „hlavní“ verze si stáhnout práci ostatních členů týmu;
-> do *tvého* prokejtu na GitHubu dáváš své změny, aby je ostatní mohli
+> Z „hlavní“ verze si stáhneš práci ostatních členů týmu;
+> do *tvého* projektu na GitHubu dáváš své změny, aby je ostatní mohli
 > schválit a začlenit do „hlavní“ verze.
 >
 > {{ figure(
@@ -339,7 +339,7 @@ o tom, jak je ještě vylepšit.
 > tak se na stránce *pull requestu* zkus připomenout.
 
 U přidání jména do prezenčky se to asi nestane, ale kdybys potřeboval{{a}}
-na změně před začleněním ještě trochu zapracovat(třeba i po
+na změně před začleněním ještě trochu zapracovat (třeba i po
 pár dnech diskuse), nebyl by to problém.
 Přepni se na svém počítači do větve `pridani-jmena`, udělej další revize,
 a pomocí <code>git push <i>tvojejmeno</i> pridani-jmena</code>
@@ -352,7 +352,7 @@ Když budou tvé změny – a změny od ostatních –
 začleněné, můžeš si aktualizovat lokální repozitář. (To je ten,
 který máš u sebe na počítači.)
 
-Nejdřív se přepni zpět do věvte `master`.
+Nejdřív se přepni zpět do větve `master`.
 Teď už nebudeš pracovat na `pridani-jmena`; tahle větev už je odeslaná.
 
 To se dělá příkazem
@@ -466,4 +466,3 @@ Chceš-li si o licencích přečíst něco víc, odkážu tě na
 [choosealicense.com](http://choosealicense.com/),
 případně [creativecommons.org](http://creativecommons.org/choose/)
 a [opensource.org](https://opensource.org/licenses).
-
