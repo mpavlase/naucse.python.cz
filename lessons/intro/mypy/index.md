@@ -37,10 +37,10 @@ se s tím program za běhu nějak popasuje.
 Oba přístupy mají své výhody a nevýhody. Statická typová kontrola by možná
 pro začátečníky ubrala na čitelnosti kódu, zbytečně prodloužila krátké
 jednoúčelové programy a nejspíše by ani nenadchla vědce či matematiky, kteří
-v Pythonu tvoří většinu času prototypy, které nemají testy.
+v Pythonu tvoří většinu času prototypy a svůj kód zpravidla automaticky netestují.
 Na druhou stranu může přispět k lepší čitelnosti složitějšího kódu,
-editory a IDE mohou díky ní lépe napovídat programátorům a testování
-může odhalit chyby ještě před spuštěním aplikace.
+editory a IDE mohou díky ní lépe napovídat programátorům a typová kontrola
+může odhalit chyby ještě před spuštěním aplikace či jejich testů.
 
 Pokud výhody statické typové kontroly znějí slibně, je tady pro vás `mypy`.
 
