@@ -146,6 +146,50 @@ Té se to právem nelíbí, protože v definici jsme si stanovili, že funkce m�
 brát jako argument řetězec a místo toho jí na posledním řádku voláme
 s celočíselným argumentem.
 
+
+### Vlastní datové typy
+
+V Pythonu často používáme i vlastní datové typy (například instance tříd), 
+nejen ty vestavěné (jako je `str`, `list` a další).
+
+```python
+class Animal:
+    name: str
+
+
+class Person:
+    name: str
+
+
+def hello(pet: Animal) -> None:
+    print('Hi, I am {}, your pet.'.format(pet.name))
+
+rooster = Animal()
+rooster.name = 'Kokrhac'
+
+guest = Person()
+guest.name = 'Tichoslapek'
+
+hello(rooster)
+hello(guest)
+```
+
+Když se program pokusíme spustit, bude bez problémů fungovat:
+```console
+$ python program.py
+Hi, I am Kokrhac, your pet.
+Hi, I am Tichoslapek, your pet.
+```
+
+`mypy` nás upozorní, že funkci `hello` v druhém případě nepoužíváme správně:
+
+```console
+`--> mypy program.py
+program.py:19: error: Argument 1 to "hello" has incompatible type "Person"; expected "Animal"
+Found 1 error in 1 file (checked 1 source file)
+```
+
+
 ### Alternativní způsoby definice
 
 Jak už bylo zmíněno, Python samotný definice typů ignoruje. I přes to ale
