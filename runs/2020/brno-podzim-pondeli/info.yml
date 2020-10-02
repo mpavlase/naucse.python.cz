@@ -1,0 +1,192 @@
+title: Začátečnický kurz PyLadies
+subtitle: Brno - podzim 2020 - pondělí
+place: Mendelova univerzita v Brně + online
+time: 18:00–20:00
+default_time:
+  start: '18:00'
+  end: '20:00'
+description: Naučte se Python pěkně od začátku. Žádné předchozí znalosti nejsou potřeba.
+long_description: |
+    Začátečnický kurz PyLadies.
+
+    Stránky samotných PyLadies jsou na [http://pyladies.cz][PyLadies].
+    Organizační informace hledej tam.
+
+    Jednotlivé lekce budou určeny naprostým začátečnicím.
+    Instrukce jsou uvedeny pro operační systémy Linux, Windows i macOS.
+
+    Materiály jsou stále v přípravě, plán se bude v průběhu kurzu měnit.
+
+    Kvůli opatřením ohledně setkávání lidí budou videa z kurzu nahrávána
+    [na Youtube]. Jestli se to povede, tak i v přímém přenosu.
+
+    [PyLadies]: http://pyladies.cz/
+    [na Youtube]: https://www.youtube.com/playlist?list=PLFt-PM7J_H3ELiR5V3uQgUspihxvnCVwX
+
+derives: pyladies
+vars:
+  user-gender: f
+  pyladies: true
+  coach-present: true
+
+plan:
+- slug: preparation
+  title: 'Hadí workshop nebo domácí příprava'
+  serial: 0
+  materials:
+  - lesson: beginners/cmdline
+  - lesson: beginners/install
+  - lesson: beginners/install-editor
+  - title: Tahák na klávesnici (PDF)
+    url: https://pyvec.github.io/cheatsheets/keyboard/keyboard-cs.pdf
+    type: cheatsheet
+
+- slug: expressions
+  title: 'Výrazy a podmínky'
+  date: 2020-10-05
+  materials:
+  - title: Úvodní prezentace
+    url: https://docs.google.com/presentation/d/1iTn0_AfKGxMhPQzoZNoqDFd4ceawToJWBjkZA1UDDLQ/edit?usp=sharing
+  - lesson: beginners/venv-setup
+  - lesson: beginners/first-steps
+  - lesson: beginners/hello-world
+  - lesson: beginners/print
+  - lesson: beginners/variables
+  - lesson: beginners/comparisons
+  - title: 'Úkoly (✊✌✋)'
+    url: null
+
+
+- slug: loops
+  title: 'Funkce a cykly'
+  date: 2020-10-12
+  materials:
+  - lesson: beginners/expressions
+  - lesson: beginners/and-or
+  - lesson: beginners/functions
+  - lesson: beginners/basic-functions
+  - lesson: intro/turtle
+  - lesson: beginners/while
+  - lesson: beginners/reassignment
+  - title: Tahák na užitečné funkce (PDF)
+    url: https://pyvec.github.io/cheatsheets/basic-functions/basic-functions-cs.pdf
+    type: cheatsheet
+  - title: "Úkol (\U0001f422 \U0001f0b2\U0001f0b1)"
+    url: null
+
+
+- slug: str
+  title: 'Řetězce'
+  date: 2020-10-19
+  materials:
+  - lesson: beginners/str
+  - lesson: beginners/str-index-slice
+  - lesson: beginners/str-methods
+  - lesson: beginners/fstring
+  - title: Řetězcový tahák (PDF)
+    url: https://pyvec.github.io/cheatsheets/strings/strings-cs.pdf
+    type: cheatsheet
+  - title: "Úkol (|‾)"
+    url: null
+
+
+- slug: def
+  title: 'Vlastní funkce'
+  date: 2020-10-26
+  materials:
+  - lesson: beginners/def
+  - lesson: beginners/local-variables
+  - lesson: beginners/nested-traceback
+  - lesson: beginners/recursion
+  - title: Python Tutor
+    url: http://pythontutor.com/visualize.html#mode=edit
+  - title: "Úkol (⚁⚃⚅)"
+    url: null
+
+
+- slug: import
+  title: 'Chyby a moduly'
+  date: 2020-11-02
+  materials:
+  - lesson: beginners/exceptions
+  - lesson: beginners/modules
+  - title: Výjimkový tahák (PDF)
+    url: https://pyvec.github.io/cheatsheets/exceptions/exceptions-cs.pdf
+    type: cheatsheet
+  - title: "Úkol (×○×○)"
+    url: null
+
+
+- slug: review
+  title: 'Rozhraní a testy'
+  date: 2020-11-09
+  materials:
+  - lesson: beginners/interfaces
+  - lesson: beginners/testing
+  - lesson: beginners/circular-imports
+  - title: "Úkol (✕✕✕)"
+    url: null
+
+
+- slug: list
+  title: 'Seznamy a n-tice'
+  date: 2020-11-16
+  materials:
+  - lesson: beginners/list
+  - lesson: beginners/tuple
+  - lesson: beginners/nested-list
+  - title: Tahák na seznamy (PDF)
+    url: https://pyvec.github.io/cheatsheets/lists/lists-cs.pdf
+    type: cheatsheet
+  - title: "Úkol – [\U0001f436\U0001f431\U0001f430\U0001f40d]"
+    url: null
+
+
+- slug: dict
+  title: 'Sekvence a soubory'
+  date: 2020-11-23
+  materials:
+  - lesson: beginners/range
+  - lesson: beginners/zip-enumerate
+  - lesson: beginners/files
+  - title: Úkol (⚔️)
+    url: null
+
+
+- slug: file
+  title: 'Slovníky'
+  date: 2020-11-30
+  materials:
+  - lesson: beginners/dict
+  - lesson: intro/json
+  - title: Slovníkový tahák (PDF)
+    url: https://pyvec.github.io/cheatsheets/dicts/dicts-cs.pdf
+    type: cheatsheet
+  - title: "Úkol (💾)"
+    url: null
+
+
+- slug: klondike
+  title: 'Projekt'
+  date: 2020-12-07
+  materials:
+  - title: Turnaj v piškvorkách
+    url: null
+  - lesson: klondike/cards
+  - lesson: klondike/decks
+  - lesson: klondike/game
+  - title: "Nepovinný úkol (🂱)"
+    url: null
+
+  - title: Cvičebnice Pythonu z FI MUNI
+    url: https://www.fi.muni.cz/IB111/sbirka/
+
+- slug: class
+  title: 'Třídy a dědičnost'
+  date: 2020-12-14
+  materials:
+  - lesson: beginners/class
+  - lesson: beginners/inheritance
+  - title: "Úkol (♟♚)"
+    url: null
+
