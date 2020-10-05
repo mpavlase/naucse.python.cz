@@ -54,7 +54,7 @@ plan:
   - lesson: beginners/variables
   - lesson: beginners/comparisons
   - title: 'Úkoly (✊✌✋)'
-    url: null
+    url: https://projekty.pyladies.cz/session?course=pyladies-2020-brno-podzim-pondeli&session=expressions
 
 
 - slug: loops
