@@ -72,7 +72,7 @@ plan:
     url: https://pyvec.github.io/cheatsheets/basic-functions/basic-functions-cs.pdf
     type: cheatsheet
   - title: "Úkol (\U0001f422 \U0001f0b2\U0001f0b1)"
-    url: null
+    url: https://projekty.pyladies.cz/session?course=pyladies-2020-brno-podzim-pondeli&session=loops
 
 
 - slug: str
