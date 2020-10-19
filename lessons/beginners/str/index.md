@@ -268,7 +268,6 @@ Prase kozu potrkalo!'''
 Pozor na to, že pokud je tenhle řetězec
 v odsazeném kódu, každý jeho řádek bude začínat
 několika mezerami.
-(V dokumentačních řetězcích tohle nevadí, tam se s odsazením počítá.)
 
 ```python
 cislo = 4
