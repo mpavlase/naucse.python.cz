@@ -95,13 +95,13 @@ plan:
   date: 2020-10-26
   materials:
   - lesson: beginners/def
-  - lesson: beginners/local-variables
   - lesson: beginners/nested-traceback
+  - lesson: beginners/local-variables
   - lesson: beginners/recursion
   - title: Python Tutor
     url: http://pythontutor.com/visualize.html#mode=edit
   - title: "Úkol (⚁⚃⚅)"
-    url: null
+    url: https://projekty.pyladies.cz/session?course=pyladies-2020-brno-podzim-pondeli&session=def
 
 
 - slug: import

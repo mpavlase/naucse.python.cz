@@ -142,6 +142,7 @@ Funkci zavolej a výsledek vypiš.
 {% filter solution %}
 ```python
 def obsah_obdelnika(a, b):
+    """Vrátí obsah obdélníka s danými stranami."""
     return a * b
 
 print('Obsah obdélníka se stranami 3 cm a 5 cm je', obsah_obdelnika(3, 5), 'cm2')
