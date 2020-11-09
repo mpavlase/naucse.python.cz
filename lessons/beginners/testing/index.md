@@ -199,8 +199,9 @@ Kód pro Kámen-Nůžky-Papír může, velice zjednodušeně, vypadat zhruba tak
 import random  # (příp. import jiných věcí, které budou potřeba)
 
 tah_pocitace = 'kámen'
-tah_hrace = input('Kam chceš hrát?')
+tah_hrace = input('Co chceš hrát (kámen, nůžky, papír)? ')
 
+# (tady reálně bude spousta zanořených ifů)
 if tah_hrace == 'papír':
     print('Vyhrál{{a}} jsi!')
 else:
@@ -236,7 +237,7 @@ import random  # (příp. import jiných věci, které budou potřeba)
 
 def hrej_hru():
     tah_pocitace = 'kámen'
-    tah_hrace = input('Kam chceš hrát?')
+    tah_hrace = input('Co chceš hrát (kámen, nůžky, papír)? ')
 
     # (tady reálně bude spousta zanořených ifů)
     if tah_hrace == 'papír':
