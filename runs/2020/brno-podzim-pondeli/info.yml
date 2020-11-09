@@ -55,6 +55,7 @@ plan:
   - lesson: beginners/comparisons
   - title: 'Úkoly (✊✌✋)'
     url: https://projekty.pyladies.cz/session?course=pyladies-2020-brno-podzim-pondeli&session=expressions
+    type: homework
 
 
 - slug: loops
@@ -73,6 +74,7 @@ plan:
     type: cheatsheet
   - title: "Úkol (\U0001f422 \U0001f0b2\U0001f0b1)"
     url: https://projekty.pyladies.cz/session?course=pyladies-2020-brno-podzim-pondeli&session=loops
+    type: homework
 
 
 - slug: str
@@ -88,6 +90,7 @@ plan:
     type: cheatsheet
   - title: "Úkol (|‾)"
     url: https://projekty.pyladies.cz/session?course=pyladies-2020-brno-podzim-pondeli&session=str
+    type: homework
 
 
 - slug: def
@@ -102,6 +105,7 @@ plan:
     url: http://pythontutor.com/visualize.html#mode=edit
   - title: "Úkol (⚁⚃⚅)"
     url: https://projekty.pyladies.cz/session?course=pyladies-2020-brno-podzim-pondeli&session=def
+    type: homework
 
 
 - slug: import
@@ -115,6 +119,7 @@ plan:
     type: cheatsheet
   - title: "Úkol (×○×○)"
     url: https://projekty.pyladies.cz/session?course=pyladies-2020-brno-podzim-pondeli&session=import
+    type: homework
 
 
 - slug: review
@@ -126,6 +131,7 @@ plan:
   - lesson: beginners/circular-imports
   - title: "Úkol (✕✕✕)"
     url: null
+    type: homework
 
 
 - slug: list
@@ -140,6 +146,7 @@ plan:
     type: cheatsheet
   - title: "Úkol – [\U0001f436\U0001f431\U0001f430\U0001f40d]"
     url: null
+    type: homework
 
 
 - slug: dict
@@ -151,6 +158,7 @@ plan:
   - lesson: beginners/files
   - title: Úkol (⚔️)
     url: null
+    type: homework
 
 
 - slug: file
@@ -164,6 +172,7 @@ plan:
     type: cheatsheet
   - title: "Úkol (💾)"
     url: null
+    type: homework
 
 
 - slug: klondike
@@ -177,6 +186,7 @@ plan:
   - lesson: klondike/game
   - title: "Nepovinný úkol (🂱)"
     url: null
+    type: homework
 
   - title: Cvičebnice Pythonu z FI MUNI
     url: https://www.fi.muni.cz/IB111/sbirka/
@@ -189,4 +199,5 @@ plan:
   - lesson: beginners/inheritance
   - title: "Úkol (♟♚)"
     url: null
+    type: homework
 
