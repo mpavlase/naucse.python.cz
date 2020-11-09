@@ -130,7 +130,7 @@ plan:
   - lesson: beginners/testing
   - lesson: beginners/circular-imports
   - title: "Úkol (✕✕✕)"
-    url: null
+    url: https://projekty.pyladies.cz/session?course=pyladies-2020-brno-podzim-pondeli&session=review
     type: homework
 
 
