@@ -126,9 +126,9 @@ plan:
   title: 'Rozhraní a testy'
   date: 2020-11-09
   materials:
+  - lesson: beginners/circular-imports
   - lesson: beginners/interfaces
   - lesson: beginners/testing
-  - lesson: beginners/circular-imports
   - title: "Úkol (✕✕✕)"
     url: https://projekty.pyladies.cz/session?course=pyladies-2020-brno-podzim-pondeli&session=review
     type: homework
