@@ -143,7 +143,7 @@ Všechny udělají změny přímo v daném seznamu a (kromě `pop`) vrací `Non
 
 * `extend()` přidá více prvků najednou,
 * `insert()` přidá prvek na danou pozici,
-* `pop()` odebere *a vrátí* poslední prvek,
+* `pop()` odebere poslední prvek a *vrátí ho* (jako návratovou hodnotu),
 * `remove()` odstraní první výskyt daného prvku,
 * `sort()` seznam seřadí (řetězce podle “abecedy”, čísla vzestupně),
 * `reverse()` obrátí pořadí prvků,
@@ -277,12 +277,12 @@ print(seznam)
 Aby se daly seřadit, musí být prvky seznamu vzájemně
 *porovnatelné* – konktrétně na ně musí fungovat operátor `<`.
 Seznam s mixem čísel a řetězců tedy seřadit nepůjde.
-Operátor `<` definuje i jak přesně `sort` řadí: čísla podle velikosti;
-řetězce podle speciální „abecedy” která řadí
+Operátor `<` definuje i jak přesně `sort` řadí: čísla vzestupně podle
+velikosti; řetězce podle speciální „abecedy” která řadí
 velká písmena za malá, česká až za anglická, atd.
 
-Metoda `sort` zná pojmenovaný argument
-`reverse`. Pokud ho nastavíš na *True*, řadí se naopak.
+Metoda `sort` zná pojmenovaný argument `reverse`.
+Pokud ho nastavíš na *True*, řadí se naopak – od největšího prvku po nejmenší.
 
 ```python
 seznam = [4, 7, 8, 3, 5, 2, 4, 8, 5]
@@ -318,7 +318,7 @@ Poslední tři se ale přece jen chovají kapku jinak:
 u řetězců pracují s *podřetězci*,
 u seznamů jen s *jednotlivými* prvky.
 Takže ačkoliv melodie výše obsahuje prvky
-`'D'` a `'E'` vedle sebe, `'DE'` v seznamu není:
+`'D'` a `'E'` vedle sebe, `'DE'` ani `['D', 'E']` v seznamu není:
 
 ```python
 print('DE' in melodie)
@@ -395,7 +395,7 @@ Podobným způsobem získáš seznam seznam `matka`, `babička`, `prababička`,
 ```python
 predkove = ['matka']
 for pocet_pra in range(10):
-    predkove.append('pra' * pocet_pra + 'babička')
+    predkove.append(('pra' * pocet_pra) + 'babička')
 print(predkove)
 ```
 
@@ -405,10 +405,30 @@ zavolej `append` pro všechny kombinace barev a hodnot:
 ```python
 balicek = []
 for barva in '♠', '♥', '♦', '♣':
-    for hodnota in list(range(2, 11)) + ['J', 'Q', 'K', 'A']:
-        balicek.append(str(hodnota) + barva)
+    for hodnota in ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A']:
+        balicek.append(hodnota + barva)
 print(balicek)
 ```
+
+> [note] Jde to líp?
+> Psát do programu výčet po sobě jdoucích čísel,
+> `'2', '3', '4', '5', '6', '7', '8', '9', '10'`,
+> není ideální – na takovou otročinu přece máme počítače!
+> Zkus čísla dostat pomocí `range`.
+> Ale pozor, není to úplně přímočaré:
+>
+> * Jaké argumenty dáš funkci `range`, abys dostal{{a}} čísla od 2 do 10?
+> * Funkce `range` vrací sekvenci, která ale není seznam.
+>   Abys ji mohl{{a}} spojit se seznamem `['J', 'Q', 'K', 'A']`, budeš ji muset
+>   na seznam převést: `list(range(...))`
+> * Abys mohl{{a}} čísla z `range` připojit k řetězci jako `♠`, budeš muset
+>   každou hodnotu před použitím převést na řetězec: `str(hodnota)`.
+>
+> Bonus: Jaký je nejkratší zápis, kterým můžeš zadat seznam
+> `['J', 'Q', 'K', 'A']`?
+>
+> Řešení najdeš v textu o kousek níže.
+
 
 ## Seznamy a řetězce
 
@@ -458,9 +478,12 @@ Seznam změní „na místě“ a nic nevrací (podobně jako metoda `sort`).
 ```python
 import random
 
+ciselne_hodnoty = list(range(2, 11))
+pismenne_hodnoty = list('JQKA')
+
 balicek = []
 for barva in '♠', '♥', '♦', '♣':
-    for hodnota in list(range(2, 11)) + ['J', 'Q', 'K', 'A']:
+    for hodnota in ciselne_hodnoty + pismenne_hodnoty:
         balicek.append(str(hodnota) + barva)
 print(balicek)
 
