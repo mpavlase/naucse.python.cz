@@ -1,6 +1,6 @@
 # Soubory
 
-Dnes se podíváme na to, jak v Pythonu číst ze souborů
+Teď se podívejme na to, jak v Pythonu číst ze souborů
 (a pak i jak do nich zapisovat).
 
 Vytvoř si v editoru soubor `basnicka.txt` a napiš do něj libovolnou básničku.
@@ -10,7 +10,7 @@ Soubor ulož.
 > Na uložení souboru s básničkou doporučuji použít
 > stejný editor, jaký používáš na Pythonní programy.
 >
-> Používáš-li jiný editor než Atom, dej si při ukládání pozor na kódování:
+> Používáš-li jiný editor, dej si při ukládání pozor na kódování:
 > * Nabízí-li ti editor při ukládání výběr kódování, vyber UTF-8.
 > * Je-li k dispozici kódování „UTF-8 bez BOM”, použij to.
 > * Pokud musíš použít Notepad, který výše uvedené možnosti nemá, pak v kódu
@@ -19,7 +19,6 @@ Soubor ulož.
 > Ono [`utf-8`] je název standardního kódování.
 > Zajišťuje, že se případné emoji nebo znaky s diakritikou do souboru uloží
 > tak, aby se daly přečíst i na jiném počítači či operačním systému.
-> 🎉
 
 [`utf-8`]: https://en.wikipedia.org/wiki/UTF-8
 

@@ -65,12 +65,11 @@ Python vyhodí výjimku  `MemoryError`.
 > <kbd>Ctrl</kbd>+<kbd>C</kbd> bude trvat hodně dlouho.
 
 Se samotným `range(1000000000000000)` ale není problém.
-S konceptem *všech čísel od 0 do biliardy* se počítač vypořádá, i když si je
-neumí „zapamatovat“ všechny *najednou*.
+S konceptem *všech čísel od 0 do biliardy* se počítač vypořádá, i když je
+nezvládne držet v paměti všechny *najednou*.
 
-Je spousta věcí, které Python umí s `range` udělat, aniž by potřeboval
-„spočítat“ každé z čísel.
-Spousta operací, které znáš od seznamů, bude fungovat i s `range`:
+Je spousta věcí, které znáš ze seznamů a které Python umí s `range` udělat,
+aniž by potřeboval všechna čísla držet v paměti:
 
 ```pycon
 >>> zajimava_cisla = range(8, 10000, 3)  # Každé třetí číslo od 8 do 9999
@@ -108,7 +107,7 @@ True
 ```
 
 Objekt `range` ale nejde měnit – mazání prvků nebo metody jako
-`zajimava_cisla.sort()`, `zajimava_cisla.pop()` fungovat nebudou.
+`insert()`, `sort()`, `pop()` fungovat nebudou.
 
 > [note] Proč ne?
 > Když máš objekt jako `range(8, 10000, 3)`, osmdesátý prvek je jen trocha
@@ -124,8 +123,8 @@ Objekt `range` ale nejde měnit – mazání prvků nebo metody jako
 > sekvence.insert(103, 'ježek')
 > ```
 >
-> … jde najednou o mnohem složitější koncept, kde se N-tý prvek hledá mnohem
-> hůř. Už to není jednoduchá sekvence čísel – už to není `range`, ale spíš
+> … jde najednou o mnohem složitější sekvenci, kde se N-tý prvek hledá mnohem
+> hůř. Už to není `range`, jednoduchá sekvence čísel, ale spíš
 > seznam jakýchkoli hodnot.
 
-Pokud budeš něco, co `range` neumí, potřebovat, převeď `range` na seznam.
+Pokud budeš něco co `range` neumí potřebovat, převeď `range` na seznam.
