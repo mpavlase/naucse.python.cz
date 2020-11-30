@@ -171,7 +171,7 @@ plan:
     url: https://pyvec.github.io/cheatsheets/dicts/dicts-cs.pdf
     type: cheatsheet
   - title: "Úkol (💾)"
-    url: null
+    url: https://projekty.pyladies.cz/session?course=pyladies-2020-brno-podzim-pondeli&session=file
     type: homework
 
 
