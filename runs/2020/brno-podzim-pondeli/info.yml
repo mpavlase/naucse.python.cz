@@ -185,7 +185,7 @@ plan:
   - lesson: klondike/decks
   - lesson: klondike/game
   - title: "Nepovinný úkol (🂱)"
-    url: null
+    url: https://projekty.pyladies.cz/session?course=pyladies-2020-brno-podzim-pondeli&session=klondike
     type: homework
 
   - title: Cvičebnice Pythonu z FI MUNI
