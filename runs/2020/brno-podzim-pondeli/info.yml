@@ -198,6 +198,6 @@ plan:
   - lesson: beginners/class
   - lesson: beginners/inheritance
   - title: "Úkol (♟♚)"
-    url: null
+    url: https://projekty.pyladies.cz/session?course=pyladies-2020-brno-podzim-pondeli&session=class
     type: homework
 
