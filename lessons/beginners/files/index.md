@@ -201,7 +201,7 @@ finally:
 ```
 
 Jak `with` tak `finally` zaručí, že se soubor vždy uzavře:
-když se zpracování povede, ale i když ve něm nastane výjimka
+když se zpracování povede, ale i když v něm nastane výjimka,
 nebo když z něj vyskočíš pomocí `return` nebo `break`:
 
 ```python
