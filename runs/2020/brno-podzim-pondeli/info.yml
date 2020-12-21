@@ -201,3 +201,11 @@ plan:
     url: https://projekty.pyladies.cz/session?course=pyladies-2020-brno-podzim-pondeli&session=class
     type: homework
 
+- slug: asteroids
+  title: 'Bonus'
+  date: 2020-12-21
+  materials:
+  - lesson: intro/pyglet
+    type: link
+  - lesson: projects/asteroids
+    type: link
