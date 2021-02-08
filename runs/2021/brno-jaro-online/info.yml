@@ -19,6 +19,7 @@ plan:
   serial: 0
   date: 2021-02-22
   materials:
+  - lesson: adm/intro
   - lesson: beginners/cmdline
   - lesson: beginners/install
   - lesson: beginners/install-editor
@@ -30,8 +31,6 @@ plan:
   title: 'Výrazy a podmínky'
   date: 2021-03-01
   materials:
-  - title: Úvodní prezentace
-    url: https://docs.google.com/presentation/d/1iTn0_AfKGxMhPQzoZNoqDFd4ceawToJWBjkZA1UDDLQ/edit?usp=sharing
   - lesson: beginners/venv-setup
   - lesson: beginners/first-steps
   - lesson: beginners/hello-world
