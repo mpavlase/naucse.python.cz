@@ -1,50 +1,56 @@
 # Ahoj!
 
-Já su Petr a pracuju jako programátor.
-Aktuálně ve firmě Red Hat, kde se pomáhám starat o programovací jazyk Python
-a software v něm napsaný.
+Já su Petr a rád bych vás naučil programovat.
 
-Asi sedm let zpátky jsem zkusil programování naučit i ostatní.
-A docela se mi to zalíbilo.
-Od té doby piluju začátečnický kurz, aby byl co nejužitečnější a
-nejpřehlednější.
-Pilně testuju na lidech, abych si ověřil že to celé má smysl – a když se teď
-podívám po kanceláři (virtuálně) a vidím známé tváře z minulých kurzů,
-myslím že to smysl má.
+To možná znělo jako bych ti vykal, což jsem rozhodsně neměl v úmyslu.
+Já se chci bavit neformálně. Ale vás bude víc.
+Zakládám totiž týmový kurz – jestli se chceš přihlásit, sežeň si kamaráda,
+kolegyni, sourozence nebo náhodného kolemjdoucího.
+Psi ani kočky se nepočítají.
 
-Myšlenka kurz natočit na video nás napadla už dávno, ale takové video
-vyžaduje úplně jiný přístup – když se podíváte na záznamy z prezenčních kurzů,
-zjistíte že pokud jste tam nebyli, učí se podle nich docela špatně.
-Až teď, když jsou lidi zakázaní, je čas na YouTube.
-Snad se to povede.
-
-Vítám vás tedy na týmovém online kurzu Pythonu, který začíná v únoru 2021!
+Vítejte na tymovém kurzu Pythonu pro úplné začátečníky,
+který začne na konci února 2021!
 
 
 ## Týmy
 
 Proč týmovém?
 
-Myslím si, že to nejdůležitější co může nabídnout prezenční kurz je
-*motivace*: když je každé pondělí sraz, je složitější se na to jeden týden
-vykašlat, než když je celý kurz k dispozici.
+Už nějakou dobu učím prezenční kurzy.
+Myslím si, že to nejdůležitější co takový kurz je *motivace*: když je každé
+pondělí sraz, je složitější se na to jeden týden vykašlat, než když je celý
+kurz k dispozici online.
 A po jednom vynechaném týdnu je zase jednoduché vynechat další, a pak další,
 a tak dál.
+Doufám, že v týmu bude takové vynechávání složitější.
 
 Další co prezenční kurz přináší jsou lidi.
-Na začátku jsou tam lidi kteří se učí to samé co vy a lidi co vás to chtějí
-naučit; ke konci kurzu z nich jsou kamarádi; za pár let třeba kolegové.
+Na začátku potkáš na jedné straně lidi kteří se učí to samé co ty a na druhé
+lidi co tě to chtějí naučit.
+Ke konci kurzu máš z obou skupin kamarády; za pár let třeba kolegy.
+S online kurzem je tohle složité, ale doufám že týmy to aspoň trochu vynahradí.
 
-Abychom to aspoň trochu přenesli do videokurzu, přijímáme týmové přihlášky.
-Budeš si potřebovat najít parťáka nebo parťačku, co do toho půjde s tebou.
-Společně se budete dívat na lekce, společně budete řešit a odevzdávat úkoly.
+I organizačně se snad týmy vyplatí: až budeme opravovat odevzdané úlohy
+nebo diskutovat o zajímavých otázkách, můžeme často pracovat s celým týmem
+dohromady místo s jednotlivými účastníky.
 
-Pokud nežijete v jedné domácnosti, domluvte se na pravidelné videohovory
-přes nějakou službu, která umožňuje sdílet obrazovku: Jitsi, Google Meet,
-Zoom, a podobně.
 
-Přihlášeným týmům pak můžeme věnovat podobnou pozornost jako na prezenčním
-kurzu: opravovat odevzdané úlohy, odpovídat na individuální otázky a podobně.
+## Proč do toho jdu já?
+
+Asi sedm let zpátky jsem zkusil programování naučit i ostatní.
+A docela se mi to zalíbilo.
+Od té doby piluju začátečnický kurz, aby byl co nejužitečnější a
+nejpřehlednější.
+Pilně testuju na lidech, abych si ověřil že to celé má smysl.
+Když jsem se pak před epidemií rozhlédl po kanceláři,
+viděl jsem známé z minulých kurzů, jak si našli práci.
+Takže myslím že to smysl má.
+
+Myšlenka kurz natočit na video nás napadla už dávno, ale takové video
+vyžaduje úplně jiný přístup – když se podíváte na záznamy z prezenčních kurzů,
+zjistíte že když jste tam nebyli, učí se podle nich docela špatně.
+Takže až teď, když jsou lidi zakázaní, je čas na YouTube.
+Snad se to povede.
 
 
 ## Cena
@@ -52,11 +58,11 @@ kurzu: opravovat odevzdané úlohy, odpovídat na individuální otázky a podob
 Častá otázka ohledně kurzů je: co to stojí?
 Tady je odpověď trochu složitá.
 
-Kurz nestojí žádné peníze. Místo toho stojí čas a úsilí.
+Kurz nestojí žádné peníze. Ale místo toho stojí čas a úsilí.
 
 A to jak váš čas, který si musíte vyhradit, abyste se něco naučili,
-tak čas náš – všech dobrovolníků, kteří kurz dávají dohromady a budou vám s ním
-pomáhat.
+tak čas náš – všech dobrovolníků, kteří kurz dávají dohromady a kteří vám s ním
+budou pomáhat.
 
 Prosím, respektujte to. Jestli si nemůžete vyhradit dost času, nepřihlašujte se
 a uvolněte místo někomu, kdo svůj čas investovat může.
@@ -68,49 +74,66 @@ A kolik že toho času bude?
 
 Na to, abyste se naučili základy programování, budete potřebovat zhruba tři
 měsíce.
-Každý týdne se podíváte na nová videa a ve zbytku týdne si nabyté znalosti
+Každý týden se podíváte na nová videa a ve zbytku týdne si nabyté znalosti
 budete zkoušet.
-Připravte se na to, že tím zkoušením strávíte asi osm hodin týdně.
-Podle toho kolik toho už znáte to ze začátku může být míň, ale časem
+Připravte se na to, že tím zkoušením strávíte minimálně osm hodin týdně.
+Podle toho kolik už znáte to ze začátku může být míň, ale časem určitě
 přitvrdíme.
+Pokud nežijete v jedné domácnosti, domluvte se na pravidelné videohovory přes
+nějakou službu, která umožňuje sdílet obrazovku: [Jitsi], [Google Meet],
+[Zoom] a podobně.
 Bohužel to nejde jinak, podobně jako u sportu nebo hry na hudební nástroj:
-abyste získali praxi, musíte si všechno vyzkoušet.
+si musíte všechno pořádně vyzkoušet, abyste získali praxi.
+
+Říká se, že na učení je ideální tzv. [model 70-20-10],
+kdy 70% času strávíš procvičováním, 20% navazováním mezilidských vztahů
+(což v tomhle kurzu budou hlavně diskuze v rámci týmu a s ostatními účastníky),
+a jen 10% mají zabrat formální lekce.
+Nám lekce zaberou dvě hodiny týdně; zbytek si dopočítej.
+
+
+[Jitsi]: http://meet.jitsi.com/
+[Google Meet]: https://apps.google.com/meet/
+[Zoom]: https://zoom.us/
+
+[model 70-20-10]: https://en.wikipedia.org/wiki/70/20/10_Model_(Learning_and_Development)
 
 
 ### Zpětná vazba
 
-Další část ceny za kurz je *zpětná vazba*.
-Já ten kurzy dělám proto, abych vylepšil materiály, podle kterých se
+Další část ceny za kurz bude *zpětná vazba*.
+Já kurzy dělám proto, abych vylepšil materiály, podle kterých se
 programování dá naučit.
-Tenhle konkrétní kurz dělám proto, abych se naučil videa, která vám
+Videokurz dělám proto, abych se naučil dělat videa, která vám
 v programování pomůžou.
 Na oplátku vás prosím, abyste se po každé lekci zamysleli a napsali,
 co se vám líbilo, co se vám nelíbilo, co jste pochopili a co ještě třeba
 úplně ne.
 Pomůže to kurz dál vylepšovat.
 
-A samozřejmě, když narazíte na něco, co se dá zpravit hned – třeba chybějící
+A samozřejmě, když narazíte na něco, co se dá spravit hned – třeba chybějící
 odkaz nebo překlep – tak to nahlašte co nejdřív, nečekejte na zpětnou vazbu
 za celý týden.
 
 
 ### Veřejný přístup
 
+Takže: čas a zpětná vazba.
+
 Jestli vám cena přijde příliš vysoká, nezoufejte – materiály budou veřejné.
-Videa na YouTube, plnohodnotné textová verze všech lekcí i zadání úkolů
-plánuju dát volně k dispozici a udržovat do budoucna.
+Videa budou na YouTube, plnohodnotné textové verze všech lekcí i zadání úkolů
+plánuju dát volně k dispozici a do budoucna je udržovat.
 Teoreticky tak můžeš kurz absolvovat i bez přihlášení, ale můžu tě ujistit,
 že bez 1) týmu a 2) vyhrazeného času budeš mít mnohem,
 mnohem menší šanci uspět.
 
-Veřejné materiály jsou určené hlavně pro lidi, kteří by chtěli zorganizovat
-vlastní kurz.
-To klidně udělejte.
-Texty můžete sdílet a modifikovat jak chcete, dokud uvedete původní autory
-a zachováte licenci.
-Na videa na YouTube smíte odkázat nebo je celé, i s popiskem, zkopírovat;
-pokud je budete chtít použít jinak, tak se prosím ozvěte.
-Třeba v komentářích.
+Veřejné materiály jsou totiž určené hlavně pro lidi, kteří by chtěli
+zorganizovat vlastní kurz.
+To klidně udělej!
+Texty můžeš sdílet a modifikovat jak chceš, dokud uvedeš původní autory
+a zachováš licenci.
+Na videa na YouTube smíš odkázat nebo je celé, i s popiskem, zkopírovat.
+Pokud je budeš chtít použít jinak, tak se prosím ozvi – třeba v komentářích.
 
 
 ## Co očekávat
@@ -118,54 +141,61 @@ Třeba v komentářích.
 Tak. To byla cena. Ale za co?
 Co se v tomhle kurzu vlastně naučíš?
 
-Budou to:
-
-Základy programování.
-
-To, co budeš potřebovat v jakémkoli odvětví, kde je programování potřeba,
+Budou to **základy programování**, neboli
+to, co budeš potřebovat v jakémkoli odvětví, kde je programování potřeba –
 ať už se rozhodneš pro datovou analýzu, automatizaci a správu systémů,
-vývoj a testování webových, grafických aplikací, strojové učení, robotiku,
+vývoj a testování webových nebo grafických aplikací, strojové učení, robotiku,
 a tak dále a tak podobně.
 
-Oblastí, kde programování využiješ, je hodně, a tak jsem zanevřel na
-„praktické“ ukázky z tvého budoucího oboru.
-Někomu přijde analýza DNA zajímavá, někomu nudná – a u zpracování obrazu to
-zas může být úplně naopak.
+My budeme programovat v jazyce **Python**, který se učí relativně snadno
+a dá se o i dobře uplatnit v praxi. Sám ho v práci používám.
+Jestli ale pokukuješ po jiném jazyce, nevěš hlavu: koncepty, které se naučíš
+v Pythonu, snadno využiješ i v jiných jazycích – ať už je to Rust, C, Java,
+Javascript, nebo nějaký jiný.
 
-Proto bude většina ukázek ve formě her, které budou (doufám) aspoň trochu
-zábavné pro všechy z vás.
+Podobně jako jazyků je hodně oblastí, kde programování využiješ.
+A tak jsem zanevřel na „praktické“ ukázky z *tvého* oboru.
+Někomu přijde analýza DNA zajímavá, ale někomu zase nudná – a u zpracování
+obrazu to může být úplně naopak.
+
+Takže v tomhle kurzu bude většina ukázek ve formě her, které budou (doufejme)
+aspoň trochu zábavné pro všechy.
 Pro většinu z vás budou zároveň nepraktické a možná až infantilní,
-ale to nevadí – můžu vás ujistit, že koncepty a techniky, co se naučíte na
-hrách, využijete ve všech ostatních oborech.
+ale to nevadí – můžu tě ujistit, že koncepty a techniky co se naučíš na
+hrách, využiješ ve všech ostatních oborech.
 
 A to mě přivádí k dalšímu nutnému varování: po začátečnickém kurzu z tebe
-bude začátečník.
-Když budete tři měsíce snažit, dostanete dost znalostí a zkušeností na to,
-aby vám dával smysl pokročilejší kurz – ať už to bude statistika na
+bude začátečník. Nebo začátečnice.
+Když se budeš tři měsíce snažit, dostaneš dost znalostí a zkušeností na to,
+aby ti dával smysl nějaký pokročilejší kurz – ať už to bude statistika na
 analýzu dat, Javascript na weby, nebo informatika na návrh efektivních
 algoritmů.
 
-Cíl tohohle kurzu je vám dát základy, propojit vás s komunitou a ideálně vás
-i nasměrovat na další cestu.
+Cíl tohohle kurzu je ti dát základy, propojit tě s komunitou a nakonec tě
+nasměrovat na další cestu.
 
 
 ## Co neočekávat
 
-Jinými slovy, nečekej, že po tomhle kurzu nastoupíš jako programátor.
-To je za tři měsíce dost nerealistické, a jestli ti někdo říká opak,
-tak se nejspíš snaží něco prodat.
-Pokud práci výhledově chceš, je kurz důležitá, ale ne jediná věc co budeš
-potřebovat.
-Doporučuju kouknout na web junior.guru, kde jsou popsány ty další.
+Jinými slovy, nečekej, že po tomhle kurzu nastoupíš do nějaké firmy jako
+programátor.
+To je bohužel za tři měsíce dost nerealistické.
+Neříkám že to nejde, ale nepočítej s tím.
+Pokud práci výhledově chceš, je tenhle kurz důležitý, ale není to jediná věc co
+budeš potřebovat.
+Doporučuju kouknout na web [junior.guru], kde jsou hezky popsány ty další.
+
+[junior.guru]: https://junior.guru/
 
 Stejně tak nečekej kurz *informatiky* (angl. *computer science*),
 tedy teoretických a matematických
 principů, na kterých počítače a programy fungují.
-Rozdíl mezi tímhle kurzem a tím, co se učí na vysoké škole v oboru,
-je zhruba jako mezi autoškolou a vyučením na automechanika.
+Rozdíl mezi tímhle kurzem a tím, co se učí na vysoké škole,
+je zhruba jako mezi autoškolou a vyučením se na automechanika.
 
 A taky nečekej, že se naučíš dělat webovky nebo trénovat neuronové sítě.
-Na obojí existují jiné kurzy, ale u obojího se základy programování budou hodit.
+Na obojí existují jiné kurzy, ale u obojího se ti základy
+programování budou hodit.
 
 Tak.
 Neodradilo tě to?
@@ -174,92 +204,93 @@ Pojďme si povědět, co od vás budu očekávat.
 
 ## Co očekáváme od vás
 
-Tenhle kurz je pro úplné začátečníky: lidi, co ještě nikdy nezkoušeli
+Tenhle kurz je pro úplné začátečníky. Takže lidi co ještě nikdy nezkoušeli
 programovat.
-Pokud už nějaké kurzy nebo pokusy za sebou máte, budete se nudit – minimálně
-ze začátku.
+Pokud už nějaké kurzy nebo pokusy za sebou máš, budeš se (minimálně
+ze začátku) nudit.
 
 Kromě času a motivace, což bude to nejdůležitější, bude každý z vás potřebovat
-počítač s operačním systémem Linux, Windows nebo macOS.
-Máte-li jiný, jako Android nebo ChromeOS, máte jako začátečníci nejspíš smůlu:
-znám sice lidi, kteří takový systém teoreticky umí nastavit, ale neznám nikoho
-kdo by ho pak reálně na programování používal.
+vlastní počítač s operačním systémem Linux, Windows nebo macOS.
+Máš-li jiný systém, jako Android nebo ChromeOS, tak máš jako začátečník nejspíš
+smůlu: znám sice lidi, kteří takový systém teoreticky umí nastavit,
+ale neznám nikoho kdo by ho pak reálně na programování používal.
 
-Jestli máte pochybnosti, projděte si úvodní lekci.
-Pokud se vám povede instalace, zbytek kurzu pak zvládnete taky.
+Jestli máš pochybnosti, projdi si úvodní lekci.
+Když se ti povede instalace, zbytek kurzu pak zvládneš taky.
 
-Ideální je na kurz mít dvě obrazovky: na jedné budete sledovat to,
-co vám budu vykládat, a na druhé si to můžete rovnou zkoušet.
-Máte-li obrazovku navíc, připojte si ji k laptopu.
-Máte-li chytrou televizi nebo velký tablet, pusťte si YouTube na ní.
-Nemáte-li ani jedno, zainvestujte dva tisíce do monitoru.
-Nepotřebujete žádné skvělé funkce jako věrné podání barev nebo rychlou
-reakční dobu – to je na na filmy a hry, ne kancelářskou práci.
-Rozumný monitor stojí míň než typický programovací kurz – a jestli budete
-programovat dál, určitě ho využijete.
+Ideální je na kurz mít dvě obrazovky: na jedné budeš sledovat to,
+co budu vykládat, a na druhé si to můžeš rovnou zkoušet.
+Máš-li obrazovku navíc, připoj si ji k laptopu.
+Máš-li chytrou televizi nebo velký tablet, pusť si YouTube na ní.
+Nemáš-li ani jedno, nejlépe zainvestuj do monitoru.
+Nepotřebuješ žádné skvělé funkce jako věrné podání barev nebo rychlou
+odezvu – to je na na filmy a hry, ne na kancelářskou práci.
+Rozumný monitor stojí zhruba dva tisíce, což je míň než typický
+programovací kurz.
+A jestli budeš programovat dál, obrazovku navíc určitě využiješ.
 
-Nedoporučuju videa sledovat na mobilu nebo jiné malé obrazovce.
-Ve většině videí vám nebudu ukazovat koronavous, ale obrazovku se spoustou
+Nedoporučuju videa sledovat na mobilu nebo na jiné malé obrazovce.
+Ve většině videí nebudu ukazovat koronavous, ale spoustu
 textu zhruba téhle velikosti.
-A vy ho budete ho muset číst.
+A ty ho budeš muset číst.
 
-Dál budete potřebovat základní dovednost: ovládání počítače.
-Potřebujete vytvořit a najít soubor nebo adresář (složku) nebo nainstalovat
-nový program.
-Jestli si nejste jistí, projděte úvodní lekci – ta je z tohoto pohledu
-nejsložitější; všechno ostatní pak bude relativně jednoduché.
+Dál budeš potřebovat základy ovládání počítače.
+Potřebuješ umět vytvořit a najít soubor nebo adresář (složku).
+Potřebuješ umět nainstalovat nový program.
+Jestli máš pochybnosti, projdi si úvodní lekci – ta je z tohoto
+pohledu nejsložitější; všechno ostatní pak bude relativně jednoduché.
 
-A poslední co budete potřebovat jsou základy matematiky ze základky:
+A poslední co budeš potřebovat jsou základy matematiky ze základky:
 třeba co je to dělení se zbytkem nebo obsah čtverce.
 Detaily nejsou potřeba, vzorečky se dají najít na Wikipedii.
-Spíš potřebujete vědět že když máte pokoj tři krát čtyři metry,
-tak se tyhle čísla dají nějak zkombinovat a zjistit výměru podlahy.
+Spíš potřebuješ vědět že když máš pokoj tři krát čtyři metry,
+tak se tyhle čísla dají nějak zkombinovat a zjistíš výměru podlahy.
 
 
-## Diskuse
+### Diskuse
 
 Přihlášeným týmům přijde odkaz na Discord, kde se rojí jak zkušení programátoři
-tak nováčci, kteří podle svých schopností rádi pomůžou.
+tak nováčci.
+Každý v rámci svých možností rád pomůže.
 
-Diskusi využívejte: ptát se je zdaleka to nejužitečnější co se můžete udělat,
-abyste se naučili programovat.
-Programování je tak široký obor, že nikdo v něm neví všechno.
+Tuhle diskusi využívej.
+*Ptát se* je zdaleka to nejužitečnější co se můžeš udělat,
+abyste se naučil{{a}} programovat.
+Dělají to všichni.
+Programování je tak široký obor, že v něm nikdo neví všechno.
 Na všech úrovních je důležité vědět, koho se zeptat a jak se dobře ptát.
-A ptaní jde, jako jakákoli jiná schopnost, natrénovat.
+A tohle ptaní je jako jakákoli jiná schopnost: jde natrénovat.
+Takže trénuj.
 
-Kurz záměrně obsahuje několik míst, které jsou nejasné nebo příliš složité,
+Kurz záměrně obsahuje několik míst, která jsou nejasná nebo příliš složitá,
 a u kterých se budete *muset* zeptat.
-Můžete se samozřejmě zeptat zkušených kamarádů nebo odpověď zkusit najít na
-internetu, ale já myslím nic nepředčí kurzovou diskuzi, kde se vám všichni
-snažíme *dobře odpovídat*.
-I to je nakonec schopnost, kterou je třeba cvičit.
+Můžeš se samozřejmě zeptat zkušených kamarádů nebo zkusit najít odpověď na
+internetu, ale nic z toho nepředčí kurzovou diskuzi, kde se všichni
+snažíme šít odpovědi na míru přímo vám.
+Dobře odpovídat je nakonec taky schopnost, a my bychom si ji rádi natrénovali.
 
-
-## Povinnosti
-
-Ptaní se je tedy nejdůležitější povinnost, kterou budete mít.
-Kromě toho máme ještě dvě, trochu méně důležité: zpětnou vazbu, o které už
-jsem mluvil, a domácí úkoly.
+Ptaní se je tedy nejdůležitější povinnost, kterou budeš na kurzu mít.
+Kromě toho budete mít ještě dvě povinnosti: zpětnou vazbu,
+o které už jsem mluvil, a domácí úkoly.
 
 
 ### Domácí úkoly
 
-První je odevzdávání domácích úkolů.
-Přihlášeným týmům přijde odkaz na takzvané „odevzdávátko“, kam můžete po
+Přihlášeným týmům přijde odkaz na takzvané „odevzdávátko“, web kam můžete po
 přihlášení nahrát řešení domácích úkolů.
 To je povinné.
-Ne kvůli mně – když to neodevzdáte, tak mně to, upřímně, jen ulehčí práci.
+Ne kvůli mně – když to neodevzdáte, tak mně to, upřímně, jenom ulehčí práci.
 Povinné je to kvůli vám.
 Programovat se nenaučíte jen sledováním videí; potřebujete si to sami vyzkoušet.
 A kromě toho některé koncepty ve videích vůbec nebudou – budete na ně
 v rámci úkolů muset přijít sami, nebo se zeptat.
 
 Takže dělejte úkoly a když něco nebude jasné, tak se ptejte.
-A když budete mít zajímavou otázku, i kdyby třeba trochu odbíhala od tématu,
-ptejte se taky!
+A když to jasné bude, ale napadne vás zajímavá otázka,
+i kdyby třeba trochu odbíhala od tématu, ptejte se taky!
 
 (Ale kdybyste se někdy chtěli zeptat, jestli vadí že nestíháte úkol,
-vězte že tohle je otázka na vás, ne na nás.
+tak tohle je otázka spíš na vás, ne na nás.
 Vy se to chcete naučit; vy musíte vědět jak moc vám vadí že nestíháte.)
 
 
@@ -269,26 +300,25 @@ Tak, teď víte, jak bude kurz probíhat.
 Než začneme, dám vám ještě pár tipů na to, jak se na tahle videa dívat.
 
 1. Jak už jsem říkal, pusť si video na jedné obrazovce a na druhé si zkoušej
-   všechno, co můžeš.
+   všechno, co můžeš. Hned jak to zmíním, popadni klávesnici a zkoušej.
    Chceš procvičit prsty, ne jen vstřebávat teoretické informace.
-2. Video jde zastavit – buď myší nebo mezerníkem.
+   70-20-10.
+2. Video jde zastavit – buď klikneš myší nebo na YouTube mezerníkem.
    Na některých kombinacích systému, prohlížeče a klávesnice je dokonce
    tlačítko, které video zastaví aniž by byl prohlížeč aktivní.
-   Když nestíháš, dej si pauzu a dožeň mě.
-   Když se ztratíš moc, otevři textovou verzi lekce – v té se mnohem líp hledá.
+   Doporučuju ho zkusit najít.
+   Takže když nestíháš, dej si pauzu a dožeň mě.
+   Když se ztratíš moc, múžeš si otevřít textovou verzi lekce – v té se
+   mnohem líp hledá. Odkaz bude vždycky v popisku.
 3. Video jde zrychlit a zpomalit pomocí kláves <kbd>&gt;</kbd>
-   a <kbd>&lt;</kbd> nebo vybráním ryclosti z menu.
-   Když ti nesedí jak rychle mluvím, změnit.
+   a <kbd>&lt;</kbd> nebo vybráním rychlosti z menu.
+   Takže jestli ti nesedí jak rychle mluvím, změň to.
 
 
-## Co je to programování
+## Jdete do toho?
 
+Jestli vám to přijde jako dobrý nápad, dejte dohromady tým a přihlašte se!
+Odkaz na přihlášky najdete v popisku videa.
+Neváhejte příliš dlouho – kapacita je bohužel omezená.
 
-## Příkazová řádka a instalace
-
-XXX Instalace je nejsložitější!!
-XXX Pro každý systém jinak!!
-
-
-// díky RH
-// všechno k dispozici
+Ahoj! Snad se uvidíme na první lekci.
