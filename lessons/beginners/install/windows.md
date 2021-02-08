@@ -31,7 +31,7 @@ otevřít nové.)
 ## Starší Windows nebo existující Python
 
 Jestli zkratka `python` nefunguje, nebo jestli máš starší verzi Pythonu, běž na
-[stahovací stránku Pythonu](https://www.python.org/downloads/)
+[stahovací stránku](https://www.python.org/downloads/)
 a stáhni si instalátor nejnovější stabilní verze Pythonu.
 Ověř si že je to verze **3.6.0 nebo novější** –
 verze 3.6.0 má jistá vylepšení, která budeme v tomto kurzu používat.

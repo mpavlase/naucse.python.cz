@@ -22,6 +22,7 @@ plan:
   - lesson: adm/intro
   - lesson: beginners/cmdline
   - lesson: beginners/install
+  - lesson: beginners/venv-setup
   - lesson: beginners/install-editor
   - title: Tahák na klávesnici (PDF)
     url: https://pyvec.github.io/cheatsheets/keyboard/keyboard-cs.pdf
@@ -31,7 +32,6 @@ plan:
   title: 'Výrazy a podmínky'
   date: 2021-03-01
   materials:
-  - lesson: beginners/venv-setup
   - lesson: beginners/first-steps
   - lesson: beginners/hello-world
   - lesson: beginners/print

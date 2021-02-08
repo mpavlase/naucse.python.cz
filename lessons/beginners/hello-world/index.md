@@ -7,11 +7,11 @@
 
 Psaní příkazů přímo v Pythonu, <em>interaktivně</em>,
 má jednu velkou nevýhodu:
-to, co napíšeš, se ztratí, jakmile zavřeš okno příkazové řádky.
+to co napíšeš se ztratí jakmile zavřeš okno příkazové řádky.
 Na jednoduché výpočty to nevadí, ale až budou tvoje programy složitější,
 budeš je potřebovat nějak uložit.
 
-Otevři editor
+Otevři editor.
 (Ten bys měl{{a}} mít nainstalovaný, jestli ne, instrukce jsou v [předchozí
 lekci]({{ lesson_url('beginners/install-editor') }}).)
 
