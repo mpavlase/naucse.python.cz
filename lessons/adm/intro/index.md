@@ -2,7 +2,7 @@
 
 Já su Petr a rád bych vás naučil programovat.
 
-To možná znělo jako bych ti vykal, což jsem rozhodsně neměl v úmyslu.
+To možná znělo jako bych ti vykal, což jsem rozhodně neměl v úmyslu.
 Já se chci bavit neformálně. Ale vás bude víc.
 Zakládám totiž týmový kurz – jestli se chceš přihlásit, sežeň si kamaráda,
 kolegyni, sourozence nebo náhodného kolemjdoucího.
@@ -112,7 +112,7 @@ co se vám líbilo, co se vám nelíbilo, co jste pochopili a co ještě třeba
 Pomůže to kurz dál vylepšovat.
 
 A samozřejmě, když narazíte na něco, co se dá spravit hned – třeba chybějící
-odkaz nebo překlep – tak to nahlašte co nejdřív, nečekejte na zpětnou vazbu
+odkaz nebo překlep – tak to nahlaste co nejdřív, nečekejte na zpětnou vazbu
 za celý týden.
 
 
@@ -204,7 +204,7 @@ Pojďme si povědět, co od vás budu očekávat.
 
 ## Co očekáváme od vás
 
-Tenhle kurz je pro úplné začátečníky. Takže lidi co ještě nikdy nezkoušeli
+Tenhle kurz je pro úplné začátečníky. Takže lidi, co ještě nikdy nezkoušeli
 programovat.
 Pokud už nějaké kurzy nebo pokusy za sebou máš, budeš se (minimálně
 ze začátku) nudit.
@@ -213,7 +213,7 @@ Kromě času a motivace, což bude to nejdůležitější, bude každý z vás 
 vlastní počítač s operačním systémem Linux, Windows nebo macOS.
 Máš-li jiný systém, jako Android nebo ChromeOS, tak máš jako začátečník nejspíš
 smůlu: znám sice lidi, kteří takový systém teoreticky umí nastavit,
-ale neznám nikoho kdo by ho pak reálně na programování používal.
+ale neznám nikoho, kdo by ho pak reálně na programování používal.
 
 Jestli máš pochybnosti, projdi si úvodní lekci.
 Když se ti povede instalace, zbytek kurzu pak zvládneš taky.
@@ -254,7 +254,7 @@ tak nováčci.
 Každý v rámci svých možností rád pomůže.
 
 Tuhle diskusi využívej.
-*Ptát se* je zdaleka to nejužitečnější co se můžeš udělat,
+*Ptát se* je zdaleka to nejužitečnější co můžeš udělat,
 abyste se naučil{{a}} programovat.
 Dělají to všichni.
 Programování je tak široký obor, že v něm nikdo neví všechno.
@@ -317,7 +317,7 @@ Než začneme, dám vám ještě pár tipů na to, jak se na tahle videa dívat.
 
 ## Jdete do toho?
 
-Jestli vám to přijde jako dobrý nápad, dejte dohromady tým a přihlašte se!
+Jestli vám to přijde jako dobrý nápad, dejte dohromady tým a přihlaste se!
 Odkaz na přihlášky najdete v popisku videa.
 Neváhejte příliš dlouho – kapacita je bohužel omezená.
 
